@@ -1,0 +1,268 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0009_ds107_1980_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1980
+Geographic level: Census Tract (by State--County)
+Extent:           Massachusetts
+Dataset:          1980 Census: STF 3 - Sample-Based Data
+   NHGIS code:    1980_STF3
+   NHGIS ID:      ds107
+Breakdown(s):     Geographic Subarea:
+                     Total area (0000)
+ 
+Tables:
+ 
+1. Persons
+   Universe:    Persons
+   Source code: NT1A
+   NHGIS code:  DGO
+ 
+2. Ancestry
+   Universe:    Persons
+   Source code: NT28
+   NHGIS code:  DG0
+ 
+3. Ancestry
+   Universe:    Persons in Selected Multiple Ancestry Groups
+   Source code: NT29
+   NHGIS code:  DG1
+ 
+4. Nativity and Place of Birth
+   Universe:    Persons
+   Source code: NT33
+   NHGIS code:  DG6
+ 
+5. Occupation
+   Universe:    Employed Persons 16 Years and Over
+   Source code: NT66
+   NHGIS code:  DIB
+ 
+6. Income in 1979
+   Universe:    Households
+   Source code: NT68
+   NHGIS code:  DID
+ 
+7. Per Capita Income in 1979
+   Universe:    Persons
+   Source code: NT85A
+   NHGIS code:  DIZ
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        FSTATUS:     Functional Status Code
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        SMSAA:       Standard Metropolitan Statistical Area Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        CTY_SUBA:    County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLCK_GRPA:   Block Group Code
+        ENUMDISTA:   Enumeration District Code
+        SCSAA:       Standard Consolidated Statistical Area Code
+        URB_AREAA:   Urban Area Code
+        CDA:         Congressional District Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        MCDSEQNO:    MCD Sequence Number
+        ZIPA:        5-Digit ZIP Code Code
+        SEA:         State Economic Area (SEA)
+        UATYPE:      Urbanized Area (UA) Type
+        PLACDESC:    Place Description
+        CBD:         Central Business District (CBD)
+        INDSUBR:     Indian Subreservation
+        AREANAME:    Area Name
+        SUPFLG01:    Total Population Suppression Flag
+        SUPFLG02:    White Population Suppression Flag
+        SUPFLG03:    Black Population Suppression Flag
+        SUPFLG04:    American Indian, Eskimo, and Aleut Suppression Flag
+        SUPFLG05:    Asian and Pacific Islander Suppression Flag
+        SUPFLG06:    Spanish Population Suppression Flag
+        SUPFLG07:    Year-Round Housing Unit Suppression Flag
+        SUPFLG08:    Occupied Housing Unit Suppression Flag
+        SUPFLG09:    Occupied Housing Unit with White Householder Suppression Flag
+        SUPFLG10:    Occupied Housing Unit with Black Householder Suppression Flag
+        SUPFLG11:    Occupied Housing Unit with American Indian, Eskimo, and Aleut Householder Suppression Flag
+        SUPFLG12:    Occupied Housing Unit with Asian and Pacific Islander Householder Suppression Flag
+        SUPFLG13:    Occupied Housing Unit with Other Race Householder Suppression Flag
+        SUPFLG14:    Occupied Housing Unit with Spanish Origin Householder Suppression Flag
+        SUPFLG15:    Owner-Occupied Housing Unit Suppression Flag
+        SUPFLG16:    Owner-Occupied Housing Unit with White Householder Suppression Flag
+        SUPFLG17:    Owner-Occupied Housing Unit with Black Householder Suppression Flag
+        SUPFLG18:    Owner-Occupied Housing Unit with American Indian, Eskimo, and Aleut Householder Suppression Flag
+        SUPFLG19:    Owner-Occupied Housing Unit with Asian and Pacific Islander Householders Suppression Flag
+        SUPFLG20:    Owner-Occupied Housing Unit with Spanish Householder Suppression Flag
+        SUPFLG21:    Renter-Occupied Housing Unit Suppression Flag
+        SUPFLG22:    Renter-Occupied Housing Unit with White Householder Suppression Flag
+        SUPFLG23:    Renter-Occupied Housing Unit with Black Householder Suppression Flag
+        SUPFLG24:    Renter-Occupied Housing Unit with American Indian, Eskimo, and Aleut Householder Suppression Flag
+        SUPFLG25:    Renter-Occupied Housing Unit with Asian and Pacific Islander Householder Suppression Flag
+        SUPFLG26:    Renter-Occupied Housing Unit with Spanish Householder Suppression Flag
+        SUPFLG27:    Owner/Renter Occupied Housing Unit Suppression Flag
+ 
+Breakdown:
+    Geographic Subarea: Total area (0000)
+ 
+    Table 1:     Persons
+    Universe:    Persons
+    Source code: NT1A
+    NHGIS code:  DGO
+        DGO001:      Total
+ 
+    Table 2:     Ancestry
+    Universe:    Persons
+    Source code: NT28
+    NHGIS code:  DG0
+        DG0001:      Single ancestry group: Dutch
+        DG0002:      Single ancestry group: English
+        DG0003:      Single ancestry group: French
+        DG0004:      Single ancestry group: German
+        DG0005:      Single ancestry group: Greek
+        DG0006:      Single ancestry group: Hungarian
+        DG0007:      Single ancestry group: Irish
+        DG0008:      Single ancestry group: Italian
+        DG0009:      Single ancestry group: Norwegian
+        DG0010:      Single ancestry group: Polish
+        DG0011:      Single ancestry group: Portuguese
+        DG0012:      Single ancestry group: Russian
+        DG0013:      Single ancestry group: Scottish
+        DG0014:      Single ancestry group: Swedish
+        DG0015:      Single ancestry group: Ukranian
+        DG0016:      Single ancestry group: Other (all other single ancestry codes)
+        DG0017:      Multiple ancestry groups
+        DG0018:      Ancestry not specified: Other
+        DG0019:      Ancestry not specified: Not reported
+ 
+    Table 3:     Ancestry
+    Universe:    Persons in Selected Multiple Ancestry Groups
+    Source code: NT29
+    NHGIS code:  DG1
+        DG1001:      English and other group(s)
+        DG1002:      French and other group(s)
+        DG1003:      German and other group(s)
+        DG1004:      Irish and other group(s)
+        DG1005:      Italian and other group(s)
+        DG1006:      Polish and other group(s)
+ 
+    Table 4:     Nativity and Place of Birth
+    Universe:    Persons
+    Source code: NT33
+    NHGIS code:  DG6
+        DG6001:      Native: Born in state of residence
+        DG6002:      Native: Born in different state
+        DG6003:      Native: Born abroad, at sea, etc.
+        DG6004:      Foreign born
+ 
+    Table 5:     Occupation
+    Universe:    Employed Persons 16 Years and Over
+    Source code: NT66
+    NHGIS code:  DIB
+        DIB001:      Managerial and professional speciality occupations: Executive, administrative, and managerial occupations (codes 3-37)
+        DIB002:      Managerial and professional speciality occupations: Professional speciality occupations (codes 43-199)
+        DIB003:      Technical, sales and administrative support occupations: Technicians and related support occupations (codes 203-235)
+        DIB004:      Technical, sales and administrative support occupations: Sales occupations (codes 243-285)
+        DIB005:      Technical, sales and administrative support occupations: Administrative support occupations, including clerical (codes 303-389)
+        DIB006:      Service Occupations: Private household occupations (codes 403-407)
+        DIB007:      Service Occupations: Protective service occupations (codes 413-427)
+        DIB008:      Service Occupations: Service occupations, except household and protective (codes 433-469)
+        DIB009:      Farming, forestry and fishing occupations (codes 473-499)
+        DIB010:      Precision production, craft and repair occupations (codes 503-699)
+        DIB011:      Operators, fabricators, and laborers: Machine operators, assemblers and inspectors (codes 703-799)
+        DIB012:      Operators, fabricators, and laborers: Transportation and material moving occupations (codes 803-859)
+        DIB013:      Operators, fabricators, and laborers: Handlers, equipment cleaners, helpers and laborers (codes 863-889)
+ 
+    Table 6:     Income in 1979
+    Universe:    Households
+    Source code: NT68
+    NHGIS code:  DID
+        DID001:      Less than $2,500
+        DID002:      $2,500-$4,999
+        DID003:      $5,000-$7,499
+        DID004:      $7,500-$9,999
+        DID005:      $10,000-$12,499
+        DID006:      $12,500-$14,999
+        DID007:      $15,000-$17,499
+        DID008:      $17,500-$19,999
+        DID009:      $20,000-$22,499
+        DID010:      $22,500-$24,999
+        DID011:      $25,000-$27,499
+        DID012:      $27,500-$29,999
+        DID013:      $30,000-$34,999
+        DID014:      $35,000-$39,999
+        DID015:      $40,000-$49,999
+        DID016:      $50,000-$74,999
+        DID017:      $75,000 or more
+ 
+    Table 7:     Per Capita Income in 1979
+    Universe:    Persons
+    Source code: NT85A
+    NHGIS code:  DIZ
+        DIZ001:      Per capita income in 1979
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Jonathan Schroeder, David Van Riper, Steven Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 20.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2025. 
+        http://doi.org/10.18128/D050.V20.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

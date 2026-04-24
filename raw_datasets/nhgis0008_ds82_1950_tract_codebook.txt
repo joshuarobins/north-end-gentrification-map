@@ -1,0 +1,392 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0008_ds82_1950_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1950
+Geographic level: Census Tract (by State--County)
+Extent:           Massachusetts
+Dataset:          1950 Census: Population & Housing Data [Tracts: Major Cities & Surrounds]
+   NHGIS code:    1950_tPH_Major
+   NHGIS ID:      ds82
+ 
+Tables:
+ 
+1. Total Population
+   Universe:    Persons
+   Source code: NT1
+   NHGIS code:  BZ8
+ 
+2. Race
+   Universe:    Persons
+   Source code: NT2
+   NHGIS code:  B0J
+ 
+3. Foreign-Born White Population
+   Universe:    Foreign-Born White Persons
+   Source code: NT7
+   NHGIS code:  B1K
+ 
+4. Country of Birth of the Foreign-Born White Population
+   Universe:    Foreign-Born White Persons
+   Source code: NT8
+   NHGIS code:  B1L
+ 
+5. Median Income in 1949
+   Universe:    Families and Unrelated Individuals
+   Source code: NT16
+   NHGIS code:  B0F
+ 
+6. Sex by Age
+   Universe:    Persons
+   Source code: NT18
+   NHGIS code:  B0H
+ 
+7. White Population by Sex by Age
+   Universe:    White Persons
+   Source code: NT20
+   NHGIS code:  B0K
+ 
+8. Persons 14 Years and Over by Sex by Labor Force Status
+   Universe:    Persons 14 Years and Over
+   Source code: NT23
+   NHGIS code:  B0N
+ 
+9. Civilian Labor Force by Sex by Employment Status
+   Universe:    Civilian Persons 14 Years and Over in Labor Force
+   Source code: NT25
+   NHGIS code:  B0P
+ 
+10. Employed Population by Sex by Employment Type
+    Universe:    Employed Civilian Persons 14 Years and Over
+    Source code: NT26
+    NHGIS code:  B0Q
+ 
+11. Employed Population by Sex by Major Occupation Group
+    Universe:    Employed Civilian Persons 14 Years and Over
+    Source code: NT27
+    NHGIS code:  B0R
+ 
+12. Contract Monthly Rent
+    Universe:    Dwelling Units for Which Contract Monthly Rent Is Reported
+    Source code: NT38B
+    NHGIS code:  B04
+ 
+13. Median Contract Rent
+    Universe:    Dwelling Units for Which Contract Monthly Rent Is Reported
+    Source code: NT39
+    NHGIS code:  B05
+ 
+14. Value
+    Universe:    One-Dwelling-Unit Structures for Which Value Is Reported
+    Source code: NT41
+    NHGIS code:  B08
+ 
+15. Median Value
+    Universe:    One-Dwelling-Unit Structures for Which Value Is Reported
+    Source code: NT42
+    NHGIS code:  B09
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+    GISJOIN:     GIS Join Match Code
+    YEAR:        Data File Year
+    STATE:       State Name
+    STATEA:      State Code
+    COUNTY:      County Name
+    COUNTYA:     County Code
+    PRETRACTA:   Census Tract Prefix Code
+    TRACTA:      Census Tract Code
+    POSTTRCTA:   Census Tract Suffix Code
+    AREANAME:    Area Name
+ 
+Table 1:     Total Population
+Universe:    Persons
+Source code: NT1
+NHGIS code:  BZ8
+    BZ8001:      Total
+ 
+Table 2:     Race
+Universe:    Persons
+Source code: NT2
+NHGIS code:  B0J
+    B0J001:      White
+    B0J002:      Negro
+    B0J003:      Other nonwhite
+ 
+Table 3:     Foreign-Born White Population
+Universe:    Foreign-Born White Persons
+Source code: NT7
+NHGIS code:  B1K
+    B1K001:      Total
+ 
+Table 4:     Country of Birth of the Foreign-Born White Population
+Universe:    Foreign-Born White Persons
+Source code: NT8
+NHGIS code:  B1L
+    B1L001:      England and Wales
+    B1L002:      Scotland
+    B1L003:      Northern Ireland
+    B1L004:      Ireland (Eire)
+    B1L005:      Norway
+    B1L006:      Sweden
+    B1L007:      Denmark
+    B1L008:      Netherlands
+    B1L009:      France
+    B1L010:      Germany
+    B1L011:      Poland
+    B1L012:      Czechoslovakia
+    B1L013:      Austria
+    B1L014:      Hungary
+    B1L015:      Yugoslavia
+    B1L016:      USSR
+    B1L017:      Lithuania
+    B1L018:      Finland
+    B1L019:      Romania
+    B1L020:      Greece
+    B1L021:      Italy
+    B1L022:      Other Europe
+    B1L023:      Asia
+    B1L024:      Canada--French
+    B1L025:      Canada--Other
+    B1L026:      Mexico
+    B1L027:      Other America
+    B1L028:      All other and not reported
+ 
+Table 5:     Median Income in 1949
+Universe:    Families and Unrelated Individuals
+Source code: NT16
+NHGIS code:  B0F
+    B0F001:      Median income
+ 
+Table 6:     Sex by Age
+Universe:    Persons
+Source code: NT18
+NHGIS code:  B0H
+    B0H001:      Male >> Under 5 years
+    B0H002:      Male >> 5 to 9 years
+    B0H003:      Male >> 10 to 14 years
+    B0H004:      Male >> 15 to 19 years
+    B0H005:      Male >> 20 to 24 years
+    B0H006:      Male >> 25 to 29 years
+    B0H007:      Male >> 30 to 34 years
+    B0H008:      Male >> 35 to 39 years
+    B0H009:      Male >> 40 to 44 years
+    B0H010:      Male >> 45 to 49 years
+    B0H011:      Male >> 50 to 54 years
+    B0H012:      Male >> 55 to 59 years
+    B0H013:      Male >> 60 to 64 years
+    B0H014:      Male >> 65 to 69 years
+    B0H015:      Male >> 70 to 74 years
+    B0H016:      Male >> 75 to 84 years
+    B0H017:      Male >> 85 years and over
+    B0H018:      Female >> Under 5 years
+    B0H019:      Female >> 5 to 9 years
+    B0H020:      Female >> 10 to 14 years
+    B0H021:      Female >> 15 to 19 years
+    B0H022:      Female >> 20 to 24 years
+    B0H023:      Female >> 25 to 29 years
+    B0H024:      Female >> 30 to 34 years
+    B0H025:      Female >> 35 to 39 years
+    B0H026:      Female >> 40 to 44 years
+    B0H027:      Female >> 45 to 49 years
+    B0H028:      Female >> 50 to 54 years
+    B0H029:      Female >> 55 to 59 years
+    B0H030:      Female >> 60 to 64 years
+    B0H031:      Female >> 65 to 69 years
+    B0H032:      Female >> 70 to 74 years
+    B0H033:      Female >> 75 to 84 years
+    B0H034:      Female >> 85 years and over
+ 
+Table 7:     White Population by Sex by Age
+Universe:    White Persons
+Source code: NT20
+NHGIS code:  B0K
+    B0K001:      Male >> Under 5 years
+    B0K002:      Male >> 5 to 9 years
+    B0K003:      Male >> 10 to 14 years
+    B0K004:      Male >> 15 to 19 years
+    B0K005:      Male >> 20 to 24 years
+    B0K006:      Male >> 25 to 29 years
+    B0K007:      Male >> 30 to 34 years
+    B0K008:      Male >> 35 to 39 years
+    B0K009:      Male >> 40 to 44 years
+    B0K010:      Male >> 45 to 49 years
+    B0K011:      Male >> 50 to 54 years
+    B0K012:      Male >> 55 to 59 years
+    B0K013:      Male >> 60 to 64 years
+    B0K014:      Male >> 65 to 69 years
+    B0K015:      Male >> 70 to 74 years
+    B0K016:      Male >> 75 years and over
+    B0K017:      Female >> Under 5 years
+    B0K018:      Female >> 5 to 9 years
+    B0K019:      Female >> 10 to 14 years
+    B0K020:      Female >> 15 to 19 years
+    B0K021:      Female >> 20 to 24 years
+    B0K022:      Female >> 25 to 29 years
+    B0K023:      Female >> 30 to 34 years
+    B0K024:      Female >> 35 to 39 years
+    B0K025:      Female >> 40 to 44 years
+    B0K026:      Female >> 45 to 49 years
+    B0K027:      Female >> 50 to 54 years
+    B0K028:      Female >> 55 to 59 years
+    B0K029:      Female >> 60 to 64 years
+    B0K030:      Female >> 65 to 69 years
+    B0K031:      Female >> 70 to 74 years
+    B0K032:      Female >> 75 years and over
+ 
+Table 8:     Persons 14 Years and Over by Sex by Labor Force Status
+Universe:    Persons 14 Years and Over
+Source code: NT23
+NHGIS code:  B0N
+    B0N001:      Male >> Labor force
+    B0N002:      Male >> Not in labor force
+    B0N003:      Female >> Labor force
+    B0N004:      Female >> Not in labor force
+ 
+Table 9:     Civilian Labor Force by Sex by Employment Status
+Universe:    Civilian Persons 14 Years and Over in Labor Force
+Source code: NT25
+NHGIS code:  B0P
+    B0P001:      Male >> Employed
+    B0P002:      Male >> Unemployed
+    B0P003:      Female >> Employed
+    B0P004:      Female >> Unemployed
+ 
+Table 10:    Employed Population by Sex by Employment Type
+Universe:    Employed Civilian Persons 14 Years and Over
+Source code: NT26
+NHGIS code:  B0Q
+    B0Q001:      Male >> Private wage and salary workers
+    B0Q002:      Male >> Government workers
+    B0Q003:      Male >> Self-employed workers
+    B0Q004:      Male >> Unpaid family workers
+    B0Q005:      Female >> Private wage and salary workers
+    B0Q006:      Female >> Government workers
+    B0Q007:      Female >> Self-employed workers
+    B0Q008:      Female >> Unpaid family workers
+ 
+Table 11:    Employed Population by Sex by Major Occupation Group
+Universe:    Employed Civilian Persons 14 Years and Over
+Source code: NT27
+NHGIS code:  B0R
+    B0R001:      Male >> Professional, technical, and kindred workers
+    B0R002:      Male >> Managers, officials, and proprietors, incl. farm
+    B0R003:      Male >> Clerical and kindred workers
+    B0R004:      Male >> Sales workers
+    B0R005:      Male >> Craftsmen, foremen, and kindred workers
+    B0R006:      Male >> Operatives and kindred workers
+    B0R007:      Male >> Private household worker
+    B0R008:      Male >> Service workers, except private household
+    B0R009:      Male >> Laborers, except mine
+    B0R010:      Male >> Occupation not reported
+    B0R011:      Female >> Professional, technical, and kindred workers
+    B0R012:      Female >> Managers, officials, and proprietors, incl. farm
+    B0R013:      Female >> Clerical and kindred workers
+    B0R014:      Female >> Sales workers
+    B0R015:      Female >> Craftsmen, foremen, and kindred workers
+    B0R016:      Female >> Operatives and kindred workers
+    B0R017:      Female >> Private household worker
+    B0R018:      Female >> Service workers, except private household
+    B0R019:      Female >> Laborers, except mine
+    B0R020:      Female >> Occupation not reported
+ 
+Table 12:    Contract Monthly Rent
+Universe:    Dwelling Units for Which Contract Monthly Rent Is Reported
+Source code: NT38B
+NHGIS code:  B04
+    B04001:      Less than $10
+    B04002:      $10 to $19
+    B04003:      $20 to $29
+    B04004:      $30 to $39
+    B04005:      $40 to $49
+    B04006:      $50 to $59
+    B04007:      $60 to $74
+    B04008:      $75 to $99
+    B04009:      $100 or more
+ 
+Table 13:    Median Contract Rent
+Universe:    Dwelling Units for Which Contract Monthly Rent Is Reported
+Source code: NT39
+NHGIS code:  B05
+    B05001:      Median rent
+ 
+Table 14:    Value
+Universe:    One-Dwelling-Unit Structures for Which Value Is Reported
+Source code: NT41
+NHGIS code:  B08
+    B08001:      Less than $3,000
+    B08002:      $3,000 to $3,999
+    B08003:      $4,000 to $,4,999
+    B08004:      $5,000 to $7,499
+    B08005:      $7,500 to $,9999
+    B08006:      $10,000 to $14,999
+    B08007:      $15,000 or more
+ 
+Table 15:    Median Value
+Universe:    One-Dwelling-Unit Structures for Which Value Is Reported
+Source code: NT42
+NHGIS code:  B09
+    B09001:      Median value
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Jonathan Schroeder, David Van Riper, Steven Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 20.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2025. 
+        http://doi.org/10.18128/D050.V20.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

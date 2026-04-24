@@ -1,0 +1,137 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0008_ds97_1970_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1970
+Geographic level: Census Tract (by State--County)
+Extent:           Massachusetts
+Dataset:          1970 Census: Count 4H - Sample-Based Housing Data
+   NHGIS code:    1970_Cnt4H
+   NHGIS ID:      ds97
+Breakdown(s):     Geographic Subarea:
+                     Total area (000)
+ 
+Tables:
+ 
+1. Monthly Gross Rent of Occupied Units
+   Universe:    Renter-Occupied Units for Which Rent is Tabulated
+   Source code: NT19A
+   NHGIS code:  CS2
+ 
+2. All Persons
+   Universe:    Persons
+   Source code: NT61
+   NHGIS code:  CY7
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        CTY_SUBA:    County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        SCSAA:       Standard Consolidated Statistical Area Code
+        SMSAA:       Standard Metropolitan Statistical Area Code
+        URB_AREAA:   Urban Area Code
+        AREANAME:    Area Name
+        CENCNTY:     1970 Central County Code
+        CBD:         Central Business District
+        SEA:         State Economic Area
+ 
+Breakdown:
+    Geographic Subarea: Total area (000)
+ 
+    Table 1:     Monthly Gross Rent of Occupied Units
+    Universe:    Renter-Occupied Units for Which Rent is Tabulated
+    Source code: NT19A
+    NHGIS code:  CS2
+        CS2001:      Paying cash rent: Less than $30
+        CS2002:      Paying cash rent: $30-$39
+        CS2003:      Paying cash rent: $40-$49
+        CS2004:      Paying cash rent: $50-$59
+        CS2005:      Paying cash rent: $60-$69
+        CS2006:      Paying cash rent: $70-$79
+        CS2007:      Paying cash rent: $80-$89
+        CS2008:      Paying cash rent: $90-$99
+        CS2009:      Paying cash rent: $100-$119
+        CS2010:      Paying cash rent: $120-$149
+        CS2011:      Paying cash rent: $150-$199
+        CS2012:      Paying cash rent: $200-$249
+        CS2013:      Paying cash rent: $250-$299
+        CS2014:      Paying cash rent: $300 or more
+        CS2015:      Without payment of cash rent
+ 
+    Table 2:     All Persons
+    Universe:    Persons
+    Source code: NT61
+    NHGIS code:  CY7
+        CY7001:      Total
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Jonathan Schroeder, David Van Riper, Steven Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 20.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2025. 
+        http://doi.org/10.18128/D050.V20.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

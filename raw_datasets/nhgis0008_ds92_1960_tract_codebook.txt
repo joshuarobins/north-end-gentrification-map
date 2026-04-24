@@ -1,0 +1,518 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0008_ds92_1960_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1960
+Geographic level: Census Tract (by State--County)
+Extent:           Massachusetts
+Dataset:          1960 Census: Population & Housing Data [Tracts: Major Cities & Surrounds]
+   NHGIS code:    1960_tPH
+   NHGIS ID:      ds92
+ 
+Tables:
+ 
+1. Total Persons
+   Universe:    Persons
+   Source code: NTSUP2
+   NHGIS code:  CA4
+ 
+2. White Persons by Household Relationship
+   Universe:    White Persons
+   Source code: NT1
+   NHGIS code:  B7Z
+ 
+3. Occupied Year-Round Housing Units by Tenure
+   Universe:    Occupied Year-Round Housing Units with Nonwhite Householder
+   Source code: NT4
+   NHGIS code:  B83
+ 
+4. Aggregate Dollar Monthly Contract Rent for Renter-Occupied Units Reporting Rent
+   Universe:    Renter-Occupied Units Reporting Rent
+   Source code: NT16
+   NHGIS code:  B8B
+ 
+5. Nonwhite Persons by Race by Sex
+   Universe:    Nonwhite Persons
+   Source code: NT17
+   NHGIS code:  B8C
+ 
+6. Persons by Age by Sex
+   Universe:    Persons
+   Source code: NT18
+   NHGIS code:  B8D
+ 
+7. Persons by Race by Age by Sex
+   Universe:    Persons
+   Source code: NT20
+   NHGIS code:  B8G
+ 
+8. Foreign Stock Persons by Nativity and Parentage
+   Universe:    Foreign Stock Persons
+   Source code: NT23
+   NHGIS code:  B8J
+ 
+9. Foreign Stock Persons by Country of Origin
+   Universe:    Foreign Stock Persons
+   Source code: NT24
+   NHGIS code:  B8K
+ 
+10. Families by Income in 1959
+    Universe:    Families
+    Source code: NT35
+    NHGIS code:  B8W
+ 
+11. Employed Civilians 14 and Over by Sex by Occupation
+    Universe:    Employed Civilians 14 Years and Over
+    Source code: NT47
+    NHGIS code:  B9B
+ 
+12. Employed Civilians 14 and Over by Industry
+    Universe:    Employed Civilians 14 Years and Over
+    Source code: NT50
+    NHGIS code:  B9F
+ 
+13. Occupied Housing Units by Tenure
+    Universe:    Occupied Housing Units with Nonwhite Householder
+    Source code: NT59
+    NHGIS code:  B9P
+ 
+14. Total Nonwhite Population
+    Universe:    Nonwhite Persons
+    Source code: NT62
+    NHGIS code:  B9T
+ 
+15. Owner Occupied Units Reporting Value by Value of Unit
+    Universe:    Owner-Occupied Units Reporting Value
+    Source code: NT86
+    NHGIS code:  CAO
+ 
+16. Renter-Occupied Units Reporting Gross Rent
+    Universe:    Renter-Occupied Units Reporting Gross Rent
+    Source code: NT89
+    NHGIS code:  CAR
+ 
+17. Renter-Occupied Units Reporting Gross Rent
+    Universe:    Renter-Occupied Units Reporting Gross Rent with Nonwhite Householder
+    Source code: NT90
+    NHGIS code:  CAT
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+    GISJOIN:     GIS Join Match Code
+    YEAR:        Data File Year
+    STATE:       State Name
+    STATEA:      State Code
+    COUNTY:      County Name
+    COUNTYA:     County Code
+    MSA:         Standard Metropolitan Statistical Area (FIPS Code)
+    PLACE:       Place (FIPS Code)
+    PRETRACTA:   Census Tract Prefix Code
+    TRACTA:      Census Tract Code
+    POSTTRCTA:   Census Tract Suffix Code
+    URBAN:       Urban Area Code 1960
+    AREANAME:    Area Name
+    MCD60:       1960 Minor Civil Division (Census County Division) Code
+    PLACEDC:     Place Description Code (for code list, see https://assets.nhgis.org/original-data/modern-census/07552-Codebook.pdf#page=63)
+    PLACESC60:   1960 Place Size Code (for code list, see https://assets.nhgis.org/original-data/modern-census/07552-Codebook.pdf#page=64)
+    SF1:         Suppression Flag: Total population is less than 5 (tables NTSUP1, NTSUP4, NT1, NT14, NT17-NT21)
+    SF2:         Suppression Flag: Total housing units is less than 5 (tables NTSUP2, NTSUP3, NT2-NT13)
+    SF3:         Suppression Flag: Total housing units is 5 or more but total owner-occupied units is less than 5 (table NT13)
+    SF4:         Suppression Flag: Total housing units is 5 or more but total renter-occupied units is less than 5 (table NT16)
+    SF5:         Suppression Flag: Nonwhite population is less than 400 (tables with this universe in NT22-NT104)
+    SF6:         Suppression Flag: Puerto Rican or Spanish Surname population is less than 400 (tables with this universe in NT22-NT104)
+    GC23:        Split Tract Indicator (0 = not split; {2-4} = full tract created from {2-4} split tracts)
+ 
+Table 1:     Total Persons
+Universe:    Persons
+Source code: NTSUP2
+NHGIS code:  CA4
+    CA4001:      Total
+ 
+Table 2:     White Persons by Household Relationship
+Universe:    White Persons
+Source code: NT1
+NHGIS code:  B7Z
+    B7Z001:      Head of primary family
+    B7Z002:      Primary individual
+    B7Z003:      Wife of head
+    B7Z004:      Related single child under 18
+    B7Z005:      Other relative of head
+    B7Z006:      Non-relative of head
+    B7Z007:      Inmate of institution
+    B7Z008:      Other in group quarters
+ 
+Table 3:     Occupied Year-Round Housing Units by Tenure
+Universe:    Occupied Year-Round Housing Units with Nonwhite Householder
+Source code: NT4
+NHGIS code:  B83
+    B83001:      Owner-occupied
+    B83002:      Renter-occupied
+ 
+Table 4:     Aggregate Dollar Monthly Contract Rent for Renter-Occupied Units Reporting Rent
+Universe:    Renter-Occupied Units Reporting Rent
+Source code: NT16
+NHGIS code:  B8B
+    B8B001:      Aggregate dollar monthly contact rent
+ 
+Table 5:     Nonwhite Persons by Race by Sex
+Universe:    Nonwhite Persons
+Source code: NT17
+NHGIS code:  B8C
+    B8C001:      Negroes >> Male
+    B8C002:      Negroes >> Female
+    B8C003:      Other Nonwhites >> Male
+    B8C004:      Other Nonwhites >> Female
+ 
+Table 6:     Persons by Age by Sex
+Universe:    Persons
+Source code: NT18
+NHGIS code:  B8D
+    B8D001:      Under 1 year >> Male
+    B8D002:      Under 1 year >> Female
+    B8D003:      1 year >> Male
+    B8D004:      1 year >> Female
+    B8D005:      2 years >> Male
+    B8D006:      2 years >> Female
+    B8D007:      3 years >> Male
+    B8D008:      3 years >> Female
+    B8D009:      4 years >> Male
+    B8D010:      4 years >> Female
+    B8D011:      5 years >> Male
+    B8D012:      5 years >> Female
+    B8D013:      6 years >> Male
+    B8D014:      6 years >> Female
+    B8D015:      7 years >> Male
+    B8D016:      7 years >> Female
+    B8D017:      8 years >> Male
+    B8D018:      8 years >> Female
+    B8D019:      9 years >> Male
+    B8D020:      9 years >> Female
+    B8D021:      10 years >> Male
+    B8D022:      10 years >> Female
+    B8D023:      11 years >> Male
+    B8D024:      11 years >> Female
+    B8D025:      12 years >> Male
+    B8D026:      12 years >> Female
+    B8D027:      13 years >> Male
+    B8D028:      13 years >> Female
+    B8D029:      14 years >> Male
+    B8D030:      14 years >> Female
+    B8D031:      15 years >> Male
+    B8D032:      15 years >> Female
+    B8D033:      16 years >> Male
+    B8D034:      16 years >> Female
+    B8D035:      17 years >> Male
+    B8D036:      17 years >> Female
+    B8D037:      18 years >> Male
+    B8D038:      18 years >> Female
+    B8D039:      19 years >> Male
+    B8D040:      19 years >> Female
+    B8D041:      20 years >> Male
+    B8D042:      20 years >> Female
+    B8D043:      21-24 years >> Male
+    B8D044:      21-24 years >> Female
+    B8D045:      75-79 years >> Male
+    B8D046:      75-79 years >> Female
+    B8D047:      80-84 years >> Male
+    B8D048:      80-84 years >> Female
+    B8D049:      85 years and over >> Male
+    B8D050:      85 years and over >> Female
+ 
+Table 7:     Persons by Race by Age by Sex
+Universe:    Persons
+Source code: NT20
+NHGIS code:  B8G
+    B8G001:      White >> Under 5 years >> Male
+    B8G002:      White >> Under 5 years >> Female
+    B8G003:      White >> 5-9 Years >> Male
+    B8G004:      White >> 5-9 Years >> Female
+    B8G005:      White >> 10-14 years >> Male
+    B8G006:      White >> 10-14 years >> Female
+    B8G007:      White >> 15-19 years >> Male
+    B8G008:      White >> 15-19 years >> Female
+    B8G009:      White >> 20-24 years >> Male
+    B8G010:      White >> 20-24 years >> Female
+    B8G011:      White >> 25-29 years >> Male
+    B8G012:      White >> 25-29 years >> Female
+    B8G013:      White >> 30-34 years >> Male
+    B8G014:      White >> 30-34 years >> Female
+    B8G015:      White >> 35-39 years >> Male
+    B8G016:      White >> 35-39 years >> Female
+    B8G017:      White >> 40-44 years >> Male
+    B8G018:      White >> 40-44 years >> Female
+    B8G019:      White >> 45-49 years >> Male
+    B8G020:      White >> 45-49 years >> Female
+    B8G021:      White >> 50-54 years >> Male
+    B8G022:      White >> 50-54 years >> Female
+    B8G023:      White >> 55-59 years >> Male
+    B8G024:      White >> 55-59 years >> Female
+    B8G025:      White >> 60-64 years >> Male
+    B8G026:      White >> 60-64 years >> Female
+    B8G027:      White >> 65-69 years >> Male
+    B8G028:      White >> 65-69 years >> Female
+    B8G029:      White >> 70-74 years >> Male
+    B8G030:      White >> 70-74 years >> Female
+    B8G031:      White >> 75 years and over >> Male
+    B8G032:      White >> 75 years and over >> Female
+    B8G033:      Non-white >> Under 5 years >> Male
+    B8G034:      Non-white >> Under 5 years >> Female
+    B8G035:      Non-white >> 5-9 Years >> Male
+    B8G036:      Non-white >> 5-9 Years >> Female
+    B8G037:      Non-white >> 10-14 years >> Male
+    B8G038:      Non-white >> 10-14 years >> Female
+    B8G039:      Non-white >> 15-19 years >> Male
+    B8G040:      Non-white >> 15-19 years >> Female
+    B8G041:      Non-white >> 20-24 years >> Male
+    B8G042:      Non-white >> 20-24 years >> Female
+    B8G043:      Non-white >> 25-29 years >> Male
+    B8G044:      Non-white >> 25-29 years >> Female
+    B8G045:      Non-white >> 30-34 years >> Male
+    B8G046:      Non-white >> 30-34 years >> Female
+    B8G047:      Non-white >> 35-39 years >> Male
+    B8G048:      Non-white >> 35-39 years >> Female
+    B8G049:      Non-white >> 40-44 years >> Male
+    B8G050:      Non-white >> 40-44 years >> Female
+    B8G051:      Non-white >> 45-49 years >> Male
+    B8G052:      Non-white >> 45-49 years >> Female
+    B8G053:      Non-white >> 50-54 years >> Male
+    B8G054:      Non-white >> 50-54 years >> Female
+    B8G055:      Non-white >> 55-59 years >> Male
+    B8G056:      Non-white >> 55-59 years >> Female
+    B8G057:      Non-white >> 60-64 years >> Male
+    B8G058:      Non-white >> 60-64 years >> Female
+    B8G059:      Non-white >> 65-69 years >> Male
+    B8G060:      Non-white >> 65-69 years >> Female
+    B8G061:      Non-white >> 70-74 years >> Male
+    B8G062:      Non-white >> 70-74 years >> Female
+    B8G063:      Non-white >> 75 years and over >> Male
+    B8G064:      Non-white >> 75 years and over >> Female
+ 
+Table 8:     Foreign Stock Persons by Nativity and Parentage
+Universe:    Foreign Stock Persons
+Source code: NT23
+NHGIS code:  B8J
+    B8J001:      Foreign Born
+    B8J002:      Native of Foreign or mixed parentage
+ 
+Table 9:     Foreign Stock Persons by Country of Origin
+Universe:    Foreign Stock Persons
+Source code: NT24
+NHGIS code:  B8K
+    B8K001:      United Kingdom (Northern Ireland)
+    B8K002:      Ireland (Eire)
+    B8K003:      Norway
+    B8K004:      Sweden
+    B8K005:      Germany
+    B8K006:      Poland
+    B8K007:      Czechoslovakia
+    B8K008:      Austria
+    B8K009:      Hungary
+    B8K010:      USSR
+    B8K011:      Italy
+    B8K012:      Canada
+    B8K013:      Mexico
+    B8K014:      All others and not reported
+ 
+Table 10:    Families by Income in 1959
+Universe:    Families
+Source code: NT35
+NHGIS code:  B8W
+    B8W001:      Less than $1,000
+    B8W002:      $1,000-$1,999
+    B8W003:      $2,000-$2,999
+    B8W004:      $3,000-$3,999
+    B8W005:      $4,000-$4,999
+    B8W006:      $5,000-$5,999
+    B8W007:      $6,000-$6,999
+    B8W008:      $7,000-$7,999
+    B8W009:      $8,000-$8,999
+    B8W010:      $9,000-$9,999
+    B8W011:      $10,000-$14,999
+    B8W012:      $15,000-$24,999
+    B8W013:      $25,000 and over
+ 
+Table 11:    Employed Civilians 14 and Over by Sex by Occupation
+Universe:    Employed Civilians 14 Years and Over
+Source code: NT47
+NHGIS code:  B9B
+    B9B001:      Male >> Professional, technical or kindred workers
+    B9B002:      Male >> Farmers and farm managers
+    B9B003:      Male >> Managers, officials, and proprietors
+    B9B004:      Male >> Clerical and kindred workers
+    B9B005:      Male >> Sales workers
+    B9B006:      Male >> Craftsmen, foremen, and kindred workers
+    B9B007:      Male >> Operatives and kindred workers, including mine
+    B9B008:      Male >> Private household workers
+    B9B009:      Male >> Service workers, except household
+    B9B010:      Male >> Farm laborers and foremen
+    B9B011:      Male >> Laborers except farm and mine
+    B9B012:      Male >> Not Reported
+    B9B013:      Female >> Professional, technical or kindred workers
+    B9B014:      Female >> Farmers and farm managers
+    B9B015:      Female >> Managers, officials, and proprietors
+    B9B016:      Female >> Clerical and kindred workers
+    B9B017:      Female >> Sales workers
+    B9B018:      Female >> Craftsmen, foremen, and kindred workers
+    B9B019:      Female >> Operatives and kindred workers, including mine
+    B9B020:      Female >> Private household workers
+    B9B021:      Female >> Service workers, except household
+    B9B022:      Female >> Farm laborers and foremen
+    B9B023:      Female >> Laborers except farm and mine
+    B9B024:      Female >> Not Reported
+ 
+Table 12:    Employed Civilians 14 and Over by Industry
+Universe:    Employed Civilians 14 Years and Over
+Source code: NT50
+NHGIS code:  B9F
+    B9F001:      Mining
+    B9F002:      Construction
+    B9F003:      Furniture, lumber, and wood
+    B9F004:      Metal industry
+    B9F005:      Machinery
+    B9F006:      Transportation equipment
+    B9F007:      Other durable goods
+    B9F008:      Food and kindred industries
+    B9F009:      Textile and apparel
+    B9F010:      Printing, publishing, and allied
+    B9F011:      Other nondurable goods
+    B9F012:      R.R. and Railway express
+    B9F013:      Other transportation
+    B9F014:      Communications, utilities, sanitary services
+    B9F015:      Wholesale trade
+    B9F016:      Eating and drinking places
+    B9F017:      Other retails
+    B9F018:      Business and repair services
+    B9F019:      Private household services
+    B9F020:      Other personal services
+    B9F021:      Hospitals
+    B9F022:      Educational services
+    B9F023:      Other professional services
+    B9F024:      Public administration
+    B9F025:      Other, including not reported
+ 
+Table 13:    Occupied Housing Units by Tenure
+Universe:    Occupied Housing Units with Nonwhite Householder
+Source code: NT59
+NHGIS code:  B9P
+    B9P001:      Owner-occupied
+    B9P002:      Renter-occupied
+ 
+Table 14:    Total Nonwhite Population
+Universe:    Nonwhite Persons
+Source code: NT62
+NHGIS code:  B9T
+    B9T001:      Total
+ 
+Table 15:    Owner Occupied Units Reporting Value by Value of Unit
+Universe:    Owner-Occupied Units Reporting Value
+Source code: NT86
+NHGIS code:  CAO
+    CAO001:      Under $5,000
+    CAO002:      $5,00-$7,499
+    CAO003:      $7,500-$9,999
+    CAO004:      $10,000-$12,499
+    CAO005:      $12,500-$14,999
+    CAO006:      $15,000-$17,499
+    CAO007:      $17,500-$19,999
+    CAO008:      $20,000-$24,999
+    CAO009:      $25,000-$34,999
+    CAO010:      $35,000 or more
+ 
+Table 16:    Renter-Occupied Units Reporting Gross Rent
+Universe:    Renter-Occupied Units Reporting Gross Rent
+Source code: NT89
+NHGIS code:  CAR
+    CAR001:      Less than $20
+    CAR002:      $20-29
+    CAR003:      $30-39
+    CAR004:      $40-49
+    CAR005:      $50-59
+    CAR006:      $60-69
+    CAR007:      $70-79
+    CAR008:      $80-89
+    CAR009:      $90-99
+    CAR010:      $100-119
+    CAR011:      $120-149
+    CAR012:      $150-199
+    CAR013:      $200 or more
+ 
+Table 17:    Renter-Occupied Units Reporting Gross Rent
+Universe:    Renter-Occupied Units Reporting Gross Rent with Nonwhite Householder
+Source code: NT90
+NHGIS code:  CAT
+    CAT001:      Less than $20
+    CAT002:      $20-29
+    CAT003:      $30-39
+    CAT004:      $40-49
+    CAT005:      $50-59
+    CAT006:      $60-69
+    CAT007:      $70-79
+    CAT008:      $80-89
+    CAT009:      $90-99
+    CAT010:      $100-119
+    CAT011:      $120-149
+    CAT012:      $150 or more
+    CAT013:      No cash rent
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Jonathan Schroeder, David Van Riper, Steven Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 20.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2025. 
+        http://doi.org/10.18128/D050.V20.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

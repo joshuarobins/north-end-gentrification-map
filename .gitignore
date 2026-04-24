@@ -1,0 +1,33 @@
+# ── Python virtual environment ──────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Raw source shapefiles (national-scale, 100s of MB) ──────────────────────
+# These are downloaded from NHGIS and too large for GitHub.
+# Re-download from https://nhgis.org if needed.
+shape_files/nhgis0012_shape/
+
+# The intermediate pre-clipped shapefiles are also enormous.
+# Only the final clipped WGS84 GeoJSONs (< 5 MB) are committed.
+shape_files/2000_north_end_cencus_tract.geojson
+shape_files/1960_north_end_cencus_tract.geojson
+shape_files/2000_WGS84.geojson
+shape_files/1960_WGS84.geojson
+
+# ── OS / editor junk ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ── Scratch / temp files ─────────────────────────────────────────────────────
+scratch_*.py
+scratch_*.txt

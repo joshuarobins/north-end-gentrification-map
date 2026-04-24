@@ -1,0 +1,677 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0010_ds151_2000_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2000
+Geographic level: Census Tract (by State--County)
+Extent:           Massachusetts
+Dataset:          2000 Census: SF 3a - Sample-Based Data [Areas Larger Than Block Groups]
+   NHGIS code:    2000_SF3a
+   NHGIS ID:      ds151
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+ 
+Tables:
+ 
+1. Total Population
+   Universe:    Persons
+   Source code: NP001A
+   NHGIS code:  GHC
+ 
+2. Population by Sex by Age
+   Universe:    Persons
+   Source code: NP008B
+   NHGIS code:  GHL
+ 
+3. Nativity
+   Universe:    Persons
+   Source code: NP021A
+   NHGIS code:  GI8
+ 
+4. Native Population by Place of Birth
+   Universe:    Native Persons
+   Source code: NP021B
+   NHGIS code:  GI9
+ 
+5. Native Population Born in Other State in the United States by Region
+   Universe:    Native Persons Born in Other State than State of Residence in the United States
+   Source code: NP021C
+   NHGIS code:  GJA
+ 
+6. Place of Birth Outside the United States
+   Universe:    Native Persons Born Outside the United States
+   Source code: NP021D
+   NHGIS code:  GJB
+ 
+7. Citizenship Status
+   Universe:    Foreign-Born Persons
+   Source code: NP021E
+   NHGIS code:  GJC
+ 
+8. Foreign-Born Population by Year of Entry
+   Universe:    Foreign-Born Persons
+   Source code: NP022A
+   NHGIS code:  GJD
+ 
+9. Foreign-Born Population by Year of Entry
+   Universe:    Foreign-Born Persons
+   Source code: NP023A
+   NHGIS code:  GJE
+ 
+10. Foreign-Born Population by Year of Entry by Citizenship Status
+    Universe:    Foreign-Born Persons
+    Source code: NP023B
+    NHGIS code:  GJF
+ 
+11. Sex by Industry Type
+    Universe:    Employed Civilian Persons 16 Years and Over
+    Source code: NP049C
+    NHGIS code:  GMH
+ 
+12. Sex by Detailed Selected Industry Type
+    Universe:    Employed Civilian Persons 16 Years and Over in Selected Industry Categories
+    Source code: NP049D
+    NHGIS code:  GMI
+ 
+13. Sex by Occupation Type
+    Universe:    Employed Civilian Persons 16 Years and Over
+    Source code: NP050A
+    NHGIS code:  GMJ
+ 
+14. Sex by Detailed Selected Occupation Type
+    Universe:    Employed Civilian Persons 16 Years and Over Not Employed in Farming, Fishing, or Forestry Occupations
+    Source code: NP050B
+    NHGIS code:  GMK
+ 
+15. Sex by Industry Type
+    Universe:    Employed Civilian Persons 16 Years and Over
+    Source code: NP051A
+    NHGIS code:  GMR
+ 
+16. Household Income in 1999
+    Universe:    Households
+    Source code: NP052A
+    NHGIS code:  GMX
+ 
+17. Median Household Income in 1999
+    Universe:    Households
+    Source code: NP053A
+    NHGIS code:  GMY
+ 
+18. Per Capita Income in 1999
+    Universe:    Persons
+    Source code: NP082A
+    NHGIS code:  GNW
+ 
+19. People with One or More Ancestry Categories Reported by Specified Ancestries Tallied
+    Universe:    People with One or More Ancestry Categories Reported
+    Source code: NPCT018B
+    NHGIS code:  GV5
+ 
+20. Total Foreign-Born Population
+    Universe:    Foreign-Born Persons
+    Source code: NPCT019A
+    NHGIS code:  GV7
+ 
+21. Median Contract Rent
+    Universe:    Specified Renter-Occupied Housing Units Paying Cash Rent
+    Source code: NH056A
+    NHGIS code:  GBG
+ 
+22. Median Gross Rent
+    Universe:    Specified Renter-Occupied Housing Units Paying Cash Rent
+    Source code: NH063A
+    NHGIS code:  GBO
+ 
+23. Gross Rent as a Percentage of Household Income in 1999
+    Universe:    Specified Renter-Occupied Housing Units
+    Source code: NH069A
+    NHGIS code:  GBW
+ 
+24. Median Value
+    Universe:    Specified Owner-Occupied Housing Units
+    Source code: NH076A
+    NHGIS code:  GB7
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      File Identification
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        CTY_SUBA:    County Subdivision Code
+        COUSUBCC:    FIPS County Subdivion Class Code
+        PLACEA:      Place Code
+        PLACECC:     FIPS Place Class Code
+        PLACEDC:     Place Description Code
+        TRACTA:      Census Tract Code
+        TRBL_CTA:    Tribal Census Tract Code
+        BLCK_GRPA:   Block Group Code
+        TRBL_BGA:    Tribal Block Group Code
+        C_CITYA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIANHHCC:    FIPS American Indian Area/Alaska Native Area/Hawaiian Home Land Class Code
+        AITSCE:      American Indian Tribal Subdivision (Census)
+        TRBL_SUBA:   Tribal Subdivision Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        MSA_CMSAA:   Metropolitan Statistical Area/Consolidated Metropolitan Statistical Area Code
+        CMSA:        Consolidated Metropolitan Statistical Area
+        MACCI:       Metropolitan Area Central City Indicator
+        PMSAA:       Primary Metropolitan Statistical Area Code
+        NECMAA:      New England County Metropolitan Area Code
+        NECMACCI:    New England County Metropolitan Area Central City Indicator
+        URB_AREAA:   Urban Area Code
+        UATYPE:      Urban Area Type
+        URBRURALA:   Urban/Rural Code
+        CD106A:      Congressional District (106th) Code
+        CD108A:      Congressional District (108th) Code
+        CD109A:      Congressional District (109th) Code
+        ZIP3A:       3-Digit ZIP Code Tabulation Area Code
+        ZCTAA:       5-Digit ZIP Code Tabulation Area Code
+        AREALAND:    Area (Land)
+        AREAWATR:    Area (Water)
+        NAME:        Area Name-Legal/Statistical Area Description (LSAD) Term-Part Indicator
+        FUNCSTAT:    Functional Status Code
+        INTPTLAT:    Internal Point (Latitude)
+        INTPLON:     Internal Point (Longitude)
+        LSADC:       Legal/Statistical Area Description Code
+        MACC:        Metropolitan Area Central City
+        UACP:        Urban Area Central Place
+ 
+Breakdown:
+    Geographic Subarea: Total area (00)
+ 
+    Table 1:     Total Population
+    Universe:    Persons
+    Source code: NP001A
+    NHGIS code:  GHC
+        GHC001:      Total
+ 
+    Table 2:     Population by Sex by Age
+    Universe:    Persons
+    Source code: NP008B
+    NHGIS code:  GHL
+        GHL001:      Male >> Under 1 year
+        GHL002:      Male >> 1 year
+        GHL003:      Male >> 2 years
+        GHL004:      Male >> 3 years
+        GHL005:      Male >> 4 years
+        GHL006:      Male >> 5 years
+        GHL007:      Male >> 6 years
+        GHL008:      Male >> 7 years
+        GHL009:      Male >> 8 years
+        GHL010:      Male >> 9 years
+        GHL011:      Male >> 10 years
+        GHL012:      Male >> 11 years
+        GHL013:      Male >> 12 years
+        GHL014:      Male >> 13 years
+        GHL015:      Male >> 14 years
+        GHL016:      Male >> 15 years
+        GHL017:      Male >> 16 years
+        GHL018:      Male >> 17 years
+        GHL019:      Male >> 18 years
+        GHL020:      Male >> 19 years
+        GHL021:      Male >> 20 years
+        GHL022:      Male >> 21 years
+        GHL023:      Male >> 22 to 24 years
+        GHL024:      Male >> 25 to 29 years
+        GHL025:      Male >> 30 to 34 years
+        GHL026:      Male >> 35 to 39 years
+        GHL027:      Male >> 40 to 44 years
+        GHL028:      Male >> 45 to 49 years
+        GHL029:      Male >> 50 to 54 years
+        GHL030:      Male >> 55 to 59 years
+        GHL031:      Male >> 60 and 61 years
+        GHL032:      Male >> 62 to 64 years
+        GHL033:      Male >> 65 and 66 years
+        GHL034:      Male >> 67 to 69 years
+        GHL035:      Male >> 70 to 74 years
+        GHL036:      Male >> 75 to 79 years
+        GHL037:      Male >> 80 to 84 years
+        GHL038:      Male >> 85 years and over
+        GHL039:      Female >> Under 1 year
+        GHL040:      Female >> 1 year
+        GHL041:      Female >> 2 years
+        GHL042:      Female >> 3 years
+        GHL043:      Female >> 4 years
+        GHL044:      Female >> 5 years
+        GHL045:      Female >> 6 years
+        GHL046:      Female >> 7 years
+        GHL047:      Female >> 8 years
+        GHL048:      Female >> 9 years
+        GHL049:      Female >> 10 years
+        GHL050:      Female >> 11 years
+        GHL051:      Female >> 12 years
+        GHL052:      Female >> 13 years
+        GHL053:      Female >> 14 years
+        GHL054:      Female >> 15 years
+        GHL055:      Female >> 16 years
+        GHL056:      Female >> 17 years
+        GHL057:      Female >> 18 years
+        GHL058:      Female >> 19 years
+        GHL059:      Female >> 20 years
+        GHL060:      Female >> 21 years
+        GHL061:      Female >> 22 to 24 years
+        GHL062:      Female >> 25 to 29 years
+        GHL063:      Female >> 30 to 34 years
+        GHL064:      Female >> 35 to 39 years
+        GHL065:      Female >> 40 to 44 years
+        GHL066:      Female >> 45 to 49 years
+        GHL067:      Female >> 50 to 54 years
+        GHL068:      Female >> 55 to 59 years
+        GHL069:      Female >> 60 and 61 years
+        GHL070:      Female >> 62 to 64 years
+        GHL071:      Female >> 65 and 66 years
+        GHL072:      Female >> 67 to 69 years
+        GHL073:      Female >> 70 to 74 years
+        GHL074:      Female >> 75 to 79 years
+        GHL075:      Female >> 80 to 84 years
+        GHL076:      Female >> 85 years and over
+ 
+    Table 3:     Nativity
+    Universe:    Persons
+    Source code: NP021A
+    NHGIS code:  GI8
+        GI8001:      Native
+        GI8002:      Foreign born
+ 
+    Table 4:     Native Population by Place of Birth
+    Universe:    Native Persons
+    Source code: NP021B
+    NHGIS code:  GI9
+        GI9001:      Born in state of residence
+        GI9002:      Born in other state in the United States
+        GI9003:      Born outside the United States
+ 
+    Table 5:     Native Population Born in Other State in the United States by Region
+    Universe:    Native Persons Born in Other State than State of Residence in the United States
+    Source code: NP021C
+    NHGIS code:  GJA
+        GJA001:      Northeast
+        GJA002:      Midwest
+        GJA003:      South
+        GJA004:      West
+ 
+    Table 6:     Place of Birth Outside the United States
+    Universe:    Native Persons Born Outside the United States
+    Source code: NP021D
+    NHGIS code:  GJB
+        GJB001:      Puerto Rico
+        GJB002:      US Island Area
+        GJB003:      Born abroad of American parent(s)
+ 
+    Table 7:     Citizenship Status
+    Universe:    Foreign-Born Persons
+    Source code: NP021E
+    NHGIS code:  GJC
+        GJC001:      Naturalized citizen
+        GJC002:      Not a citizen
+ 
+    Table 8:     Foreign-Born Population by Year of Entry
+    Universe:    Foreign-Born Persons
+    Source code: NP022A
+    NHGIS code:  GJD
+        GJD001:      1995 to March 2000
+        GJD002:      1990 to 1994
+        GJD003:      1985 to 1989
+        GJD004:      1980 to 1984
+        GJD005:      1975 to 1979
+        GJD006:      1970 to 1974
+        GJD007:      1965 to 1969
+        GJD008:      Before 1965
+ 
+    Table 9:     Foreign-Born Population by Year of Entry
+    Universe:    Foreign-Born Persons
+    Source code: NP023A
+    NHGIS code:  GJE
+        GJE001:      1990 to March 2000
+        GJE002:      1980 to 1989
+        GJE003:      Before 1980
+ 
+    Table 10:    Foreign-Born Population by Year of Entry by Citizenship Status
+    Universe:    Foreign-Born Persons
+    Source code: NP023B
+    NHGIS code:  GJF
+        GJF001:      1990 to March 2000 >> Naturalized citizen
+        GJF002:      1990 to March 2000 >> Not a citizen
+        GJF003:      1980 to 1989 >> Naturalized citizen
+        GJF004:      1980 to 1989 >> Not a citizen
+        GJF005:      Before 1980 >> Naturalized citizen
+        GJF006:      Before 1980 >> Not a citizen
+ 
+    Table 11:    Sex by Industry Type
+    Universe:    Employed Civilian Persons 16 Years and Over
+    Source code: NP049C
+    NHGIS code:  GMH
+        GMH001:      Male >> Agriculture, forestry, fishing and hunting, and mining
+        GMH002:      Male >> Construction
+        GMH003:      Male >> Manufacturing
+        GMH004:      Male >> Wholesale trade
+        GMH005:      Male >> Retail trade
+        GMH006:      Male >> Transportation and warehousing, and utilities
+        GMH007:      Male >> Information
+        GMH008:      Male >> Finance, insurance, real estate and rental and leasing
+        GMH009:      Male >> Professional, scientific, management, administrative, and waste management services
+        GMH010:      Male >> Educational, health and social services
+        GMH011:      Male >> Arts, entertainment, recreation, accommodation and food services
+        GMH012:      Male >> Other services (except public administration)
+        GMH013:      Male >> Public administration
+        GMH014:      Female >> Agriculture, forestry, fishing and hunting, and mining
+        GMH015:      Female >> Construction
+        GMH016:      Female >> Manufacturing
+        GMH017:      Female >> Wholesale trade
+        GMH018:      Female >> Retail trade
+        GMH019:      Female >> Transportation and warehousing, and utilities
+        GMH020:      Female >> Information
+        GMH021:      Female >> Finance, insurance, real estate and rental and leasing
+        GMH022:      Female >> Professional, scientific, management, administrative, and waste management services
+        GMH023:      Female >> Educational, health and social services
+        GMH024:      Female >> Arts, entertainment, recreation, accommodation and food services
+        GMH025:      Female >> Other services (except public administration)
+        GMH026:      Female >> Public administration
+ 
+    Table 12:    Sex by Detailed Selected Industry Type
+    Universe:    Employed Civilian Persons 16 Years and Over in Selected Industry Categories
+    Source code: NP049D
+    NHGIS code:  GMI
+        GMI001:      Male >> Agriculture, forestry, fishing and hunting, and mining: Agriculture, forestry, fishing and hunting
+        GMI002:      Male >> Agriculture, forestry, fishing and hunting, and mining: Mining
+        GMI003:      Male >> Transportation and warehousing, and utilities: Transportation and warehousing
+        GMI004:      Male >> Transportation and warehousing, and utilities: Utilities
+        GMI005:      Male >> Finance, insurance, real estate and rental and leasing: Finance and insurance
+        GMI006:      Male >> Finance, insurance, real estate and rental and leasing: Real estate and rental and leasing
+        GMI007:      Male >> Professional, scientific, management, administrative, and waste management services: Professional, scientific and technical services
+        GMI008:      Male >> Professional, scientific, management, administrative, and waste management services: Management of companies and enterprises
+        GMI009:      Male >> Professional, scientific, management, administrative, and waste management services: Administrative and support and waste management services
+        GMI010:      Male >> Educational, health, and social services: Educational services
+        GMI011:      Male >> Educational, health, and social services: Health care and social assistance
+        GMI012:      Male >> Arts, entertainment, recreation, accomodation and food services: Arts, entertainment, and recreation
+        GMI013:      Male >> Arts, entertainment, recreation, accomodation and food services: Accomodation and food services
+        GMI014:      Female >> Agriculture, forestry, fishing and hunting, and mining: Agriculture, forestry, fishing and hunting
+        GMI015:      Female >> Agriculture, forestry, fishing and hunting, and mining: Mining
+        GMI016:      Female >> Transportation and warehousing, and utilities: Transportation and warehousing
+        GMI017:      Female >> Transportation and warehousing, and utilities: Utilities
+        GMI018:      Female >> Finance, insurance, real estate and rental and leasing: Finance and insurance
+        GMI019:      Female >> Finance, insurance, real estate and rental and leasing: Real estate and rental and leasing
+        GMI020:      Female >> Professional, scientific, management, administrative, and waste management services: Professional, scientific and technical services
+        GMI021:      Female >> Professional, scientific, management, administrative, and waste management services: Management of companies and enterprises
+        GMI022:      Female >> Professional, scientific, management, administrative, and waste management services: Administrative and support and waste management services
+        GMI023:      Female >> Educational, health, and social services: Educational services
+        GMI024:      Female >> Educational, health, and social services: Health care and social assistance
+        GMI025:      Female >> Arts, entertainment, recreation, accomodation and food services: Arts, entertainment, and recreation
+        GMI026:      Female >> Arts, entertainment, recreation, accomodation and food services: Accomodation and food services
+ 
+    Table 13:    Sex by Occupation Type
+    Universe:    Employed Civilian Persons 16 Years and Over
+    Source code: NP050A
+    NHGIS code:  GMJ
+        GMJ001:      Male >> Management, professional, and related occupations
+        GMJ002:      Male >> Service occupations
+        GMJ003:      Male >> Sales and office occupations
+        GMJ004:      Male >> Farming, fishing, and forestry occupations
+        GMJ005:      Male >> Construction, extraction, and maintenance occupations
+        GMJ006:      Male >> Production, transportation, and material moving occupations
+        GMJ007:      Female >> Management, professional, and related occupations
+        GMJ008:      Female >> Service occupations
+        GMJ009:      Female >> Sales and office occupations
+        GMJ010:      Female >> Farming, fishing, and forestry occupations
+        GMJ011:      Female >> Construction, extraction, and maintenance occupations
+        GMJ012:      Female >> Production, transportation, and material moving occupations
+ 
+    Table 14:    Sex by Detailed Selected Occupation Type
+    Universe:    Employed Civilian Persons 16 Years and Over Not Employed in Farming, Fishing, or Forestry Occupations
+    Source code: NP050B
+    NHGIS code:  GMK
+        GMK001:      Male >> Management, professional, and related operations: Management, business, and financial operations occupations
+        GMK002:      Male >> Management, professional, and related operations: Professional and related occupations
+        GMK003:      Male >> Service occupations: Healthcare support occupations
+        GMK004:      Male >> Service occupations: Protective service occupations
+        GMK005:      Male >> Service occupations: Food preparation and serving related occupations
+        GMK006:      Male >> Service occupations: Building and grounds cleaning and maintenance occupations
+        GMK007:      Male >> Service occupations: Personal care and service occupations
+        GMK008:      Male >> Sales and Office Occupations: Sales and related occupations
+        GMK009:      Male >> Sales and Office Occupations: Office and administrative support occupations
+        GMK010:      Male >> Construction, extraction, and maintenance occupations: Construction and extraction occupations
+        GMK011:      Male >> Construction, extraction, and maintenance occupations: Installation, maintenance, and repair occupations
+        GMK012:      Male >> Production, transportation, and material moving occupations: Production occupations
+        GMK013:      Male >> Production, transportation, and material moving occupations: Transportation and material moving occupations
+        GMK014:      Female >> Management, professional, and related operations: Management, business, and financial operations occupations
+        GMK015:      Female >> Management, professional, and related operations: Professional and related occupations
+        GMK016:      Female >> Service occupations: Healthcare support occupations
+        GMK017:      Female >> Service occupations: Protective service occupations
+        GMK018:      Female >> Service occupations: Food preparation and serving related occupations
+        GMK019:      Female >> Service occupations: Building and grounds cleaning and maintenance occupations
+        GMK020:      Female >> Service occupations: Personal care and service occupations
+        GMK021:      Female >> Sales and Office Occupations: Sales and related occupations
+        GMK022:      Female >> Sales and Office Occupations: Office and administrative support occupations
+        GMK023:      Female >> Construction, extraction, and maintenance occupations: Construction and extraction occupations
+        GMK024:      Female >> Construction, extraction, and maintenance occupations: Installation, maintenance, and repair occupations
+        GMK025:      Female >> Production, transportation, and material moving occupations: Production occupations
+        GMK026:      Female >> Production, transportation, and material moving occupations: Transportation and material moving occupations
+ 
+    Table 15:    Sex by Industry Type
+    Universe:    Employed Civilian Persons 16 Years and Over
+    Source code: NP051A
+    NHGIS code:  GMR
+        GMR001:      Male >> All industries except agriculture, forestry, fishing and hunting, and mining
+        GMR002:      Male >> Agriculture, forestry, fishing and hunting, and mining
+        GMR003:      Female >> All industries except agriculture, forestry, fishing and hunting, and mining
+        GMR004:      Female >> Agriculture, forestry, fishing and hunting, and mining
+ 
+    Table 16:    Household Income in 1999
+    Universe:    Households
+    Source code: NP052A
+    NHGIS code:  GMX
+        GMX001:      Less than $10,000
+        GMX002:      $10,000 to $14,999
+        GMX003:      $15,000 to $19,999
+        GMX004:      $20,000 to $24,999
+        GMX005:      $25,000 to $29,999
+        GMX006:      $30,000 to $34,999
+        GMX007:      $35,000 to $39,999
+        GMX008:      $40,000 to $44,999
+        GMX009:      $45,000 to $49,999
+        GMX010:      $50,000 to $59,999
+        GMX011:      $60,000 to $74,999
+        GMX012:      $75,000 to $99,999
+        GMX013:      $100,000 to $124,999
+        GMX014:      $125,000 to $149,999
+        GMX015:      $150,000 to $199,999
+        GMX016:      $200,000 or more
+ 
+    Table 17:    Median Household Income in 1999
+    Universe:    Households
+    Source code: NP053A
+    NHGIS code:  GMY
+        GMY001:      Median income in 1999
+ 
+    Table 18:    Per Capita Income in 1999
+    Universe:    Persons
+    Source code: NP082A
+    NHGIS code:  GNW
+        GNW001:      Per capita income in 1999
+ 
+    Table 19:    People with One or More Ancestry Categories Reported by Specified Ancestries Tallied
+    Universe:    People with One or More Ancestry Categories Reported
+    Source code: NPCT018B
+    NHGIS code:  GV5
+        GV5001:      Acadian/Cajun
+        GV5002:      Afghan
+        GV5003:      Albanian
+        GV5004:      Alsatian
+        GV5005:      Arab
+        GV5006:      Armenian
+        GV5007:      Assyrian/Chaldean/Syriac
+        GV5008:      Australian
+        GV5009:      Austrian
+        GV5010:      Basque
+        GV5011:      Belgian
+        GV5012:      Brazilian
+        GV5013:      British
+        GV5014:      Bulgarian
+        GV5015:      Canadian
+        GV5016:      Carpatho Rusyn
+        GV5017:      Celtic
+        GV5018:      Croatian
+        GV5019:      Cypriot
+        GV5020:      Czech
+        GV5021:      Czechoslovakian
+        GV5022:      Danish
+        GV5023:      Dutch
+        GV5024:      Eastern European
+        GV5025:      English
+        GV5026:      Estonian
+        GV5027:      European
+        GV5028:      Finnish
+        GV5029:      French (except Basque)
+        GV5030:      French Canadian
+        GV5031:      German
+        GV5032:      German Russian
+        GV5033:      Greek
+        GV5034:      Guyanese
+        GV5035:      Hungarian
+        GV5036:      Icelander
+        GV5037:      Iranian
+        GV5038:      Irish
+        GV5039:      Israeli
+        GV5040:      Italian
+        GV5041:      Latvian
+        GV5042:      Lithuanian
+        GV5043:      Luxemburger
+        GV5044:      Macedonian
+        GV5045:      Maltese
+        GV5046:      New Zealander
+        GV5047:      Northern European
+        GV5048:      Norwegian
+        GV5049:      Pennsylvania German
+        GV5050:      Polish
+        GV5051:      Portuguese
+        GV5052:      Romanian
+        GV5053:      Russian
+        GV5054:      Scandinavian
+        GV5055:      Scotch-Irish
+        GV5056:      Scottish
+        GV5057:      Serbian
+        GV5058:      Slavic
+        GV5059:      Slovak
+        GV5060:      Slovene
+        GV5061:      Soviet Union
+        GV5062:      Subsaharan African
+        GV5063:      Swedish
+        GV5064:      Swiss
+        GV5065:      Turkish
+        GV5066:      Ukrainian
+        GV5067:      United States or American
+        GV5068:      Welsh
+        GV5069:      West Indian (excluding Hispanic groups)
+        GV5070:      Yugoslavian
+        GV5071:      Other groups
+ 
+    Table 20:    Total Foreign-Born Population
+    Universe:    Foreign-Born Persons
+    Source code: NPCT019A
+    NHGIS code:  GV7
+        GV7001:      Total
+ 
+    Table 21:    Median Contract Rent
+    Universe:    Specified Renter-Occupied Housing Units Paying Cash Rent
+    Source code: NH056A
+    NHGIS code:  GBG
+        GBG001:      Median contract rent
+ 
+    Table 22:    Median Gross Rent
+    Universe:    Specified Renter-Occupied Housing Units Paying Cash Rent
+    Source code: NH063A
+    NHGIS code:  GBO
+        GBO001:      Median gross rent
+ 
+    Table 23:    Gross Rent as a Percentage of Household Income in 1999
+    Universe:    Specified Renter-Occupied Housing Units
+    Source code: NH069A
+    NHGIS code:  GBW
+        GBW001:      Less than 10.0 percent
+        GBW002:      10.0 to 14.9 percent
+        GBW003:      15.0 to 19.9 percent
+        GBW004:      20.0 to 24.9 percent
+        GBW005:      25.0 to 29.9 percent
+        GBW006:      30.0 to 34.9 percent
+        GBW007:      35.0 to 39.9 percent
+        GBW008:      40.0 to 49.9 percent
+        GBW009:      50.0 percent or more
+        GBW010:      Not computed
+ 
+    Table 24:    Median Value
+    Universe:    Specified Owner-Occupied Housing Units
+    Source code: NH076A
+    NHGIS code:  GB7
+        GB7001:      Median value
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Jonathan Schroeder, David Van Riper, Steven Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 20.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2025. 
+        http://doi.org/10.18128/D050.V20.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

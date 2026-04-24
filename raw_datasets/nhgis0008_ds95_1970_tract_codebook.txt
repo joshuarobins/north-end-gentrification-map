@@ -1,0 +1,359 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0008_ds95_1970_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1970
+Geographic level: Census Tract (by State--County)
+Extent:           Massachusetts
+Dataset:          1970 Census: Count 2 - 100% Data [Tracts, Urban Areas, Metro Areas, etc.] 
+   NHGIS code:    1970_Cnt2
+   NHGIS ID:      ds95
+Breakdown(s):     Geographic Subarea:
+                     Total area (000)
+ 
+Tables:
+ 
+1. Sex by Age
+   Universe:    Persons
+   Source code: NT2A
+   NHGIS code:  CE6
+ 
+2. Value
+   Universe:    Owner-Occupied Units
+   Source code: NT46A
+   NHGIS code:  CG7
+ 
+3. Monthly Contract Rent
+   Universe:    Renter-Occupied Units for Which Rent is Tabulated
+   Source code: NT47A
+   NHGIS code:  CHA
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        CTY_SUBA:    County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        SCSAA:       Standard Consolidated Statistical Area Code
+        SMSAA:       Standard Metropolitan Statistical Area Code
+        URB_AREAA:   Urban Area Code
+        AREANAME:    Area Name
+        CENCNTY:     1970 Central County Code
+        CBD:         Central Business District
+        SEA:         State Economic Area
+ 
+Breakdown:
+    Geographic Subarea: Total area (000)
+ 
+    Table 1:     Sex by Age
+    Universe:    Persons
+    Source code: NT2A
+    NHGIS code:  CE6
+        CE6001:      Male >> Under 1 year
+        CE6002:      Male >> 1 year
+        CE6003:      Male >> 2 years
+        CE6004:      Male >> 3 years
+        CE6005:      Male >> 4 years
+        CE6006:      Male >> 5 years
+        CE6007:      Male >> 6 years
+        CE6008:      Male >> 7 years
+        CE6009:      Male >> 8 years
+        CE6010:      Male >> 9 years
+        CE6011:      Male >> 10 years
+        CE6012:      Male >> 11 years
+        CE6013:      Male >> 12 years
+        CE6014:      Male >> 13 years
+        CE6015:      Male >> 14 years
+        CE6016:      Male >> 15 years
+        CE6017:      Male >> 16 years
+        CE6018:      Male >> 17 years
+        CE6019:      Male >> 18 years
+        CE6020:      Male >> 19 years
+        CE6021:      Male >> 20 years
+        CE6022:      Male >> 21 years
+        CE6023:      Male >> 22 years
+        CE6024:      Male >> 23 years
+        CE6025:      Male >> 24 years
+        CE6026:      Male >> 25 years
+        CE6027:      Male >> 26 years
+        CE6028:      Male >> 27 years
+        CE6029:      Male >> 28 years
+        CE6030:      Male >> 29 years
+        CE6031:      Male >> 30 years
+        CE6032:      Male >> 31 years
+        CE6033:      Male >> 32 years
+        CE6034:      Male >> 33 years
+        CE6035:      Male >> 34 years
+        CE6036:      Male >> 35 years
+        CE6037:      Male >> 36 years
+        CE6038:      Male >> 37 years
+        CE6039:      Male >> 38 years
+        CE6040:      Male >> 39 years
+        CE6041:      Male >> 40 years
+        CE6042:      Male >> 41 years
+        CE6043:      Male >> 42 years
+        CE6044:      Male >> 43 years
+        CE6045:      Male >> 44 years
+        CE6046:      Male >> 45 years
+        CE6047:      Male >> 46 years
+        CE6048:      Male >> 47 years
+        CE6049:      Male >> 48 years
+        CE6050:      Male >> 49 years
+        CE6051:      Male >> 50 years
+        CE6052:      Male >> 51 years
+        CE6053:      Male >> 52 years
+        CE6054:      Male >> 53 years
+        CE6055:      Male >> 54 years
+        CE6056:      Male >> 55 years
+        CE6057:      Male >> 56 years
+        CE6058:      Male >> 57 years
+        CE6059:      Male >> 58 years
+        CE6060:      Male >> 59 years
+        CE6061:      Male >> 60 years
+        CE6062:      Male >> 61 years
+        CE6063:      Male >> 62 years
+        CE6064:      Male >> 63 years
+        CE6065:      Male >> 64 years
+        CE6066:      Male >> 65 years
+        CE6067:      Male >> 66 years
+        CE6068:      Male >> 67 years
+        CE6069:      Male >> 68 years
+        CE6070:      Male >> 69 years
+        CE6071:      Male >> 70 years
+        CE6072:      Male >> 71 years
+        CE6073:      Male >> 72 years
+        CE6074:      Male >> 73 years
+        CE6075:      Male >> 74 years
+        CE6076:      Male >> 75 years
+        CE6077:      Male >> 76 years
+        CE6078:      Male >> 77 years
+        CE6079:      Male >> 78 years
+        CE6080:      Male >> 79 years
+        CE6081:      Male >> 80 years
+        CE6082:      Male >> 81 years
+        CE6083:      Male >> 82 years
+        CE6084:      Male >> 83 years
+        CE6085:      Male >> 84 years
+        CE6086:      Male >> 85 years
+        CE6087:      Male >> 86 years
+        CE6088:      Male >> 87 years
+        CE6089:      Male >> 88 years
+        CE6090:      Male >> 89 years
+        CE6091:      Male >> 90 years
+        CE6092:      Male >> 91 years
+        CE6093:      Male >> 92 years
+        CE6094:      Male >> 93 years
+        CE6095:      Male >> 94 years
+        CE6096:      Male >> 95 years
+        CE6097:      Male >> 96 years
+        CE6098:      Male >> 97 years
+        CE6099:      Male >> 98 years
+        CE6100:      Male >> 99 years
+        CE6101:      Male >> 100 years and over
+        CE6102:      Female >> Under 1 year
+        CE6103:      Female >> 1 year
+        CE6104:      Female >> 2 years
+        CE6105:      Female >> 3 years
+        CE6106:      Female >> 4 years
+        CE6107:      Female >> 5 years
+        CE6108:      Female >> 6 years
+        CE6109:      Female >> 7 years
+        CE6110:      Female >> 8 years
+        CE6111:      Female >> 9 years
+        CE6112:      Female >> 10 years
+        CE6113:      Female >> 11 years
+        CE6114:      Female >> 12 years
+        CE6115:      Female >> 13 years
+        CE6116:      Female >> 14 years
+        CE6117:      Female >> 15 years
+        CE6118:      Female >> 16 years
+        CE6119:      Female >> 17 years
+        CE6120:      Female >> 18 years
+        CE6121:      Female >> 19 years
+        CE6122:      Female >> 20 years
+        CE6123:      Female >> 21 years
+        CE6124:      Female >> 22 years
+        CE6125:      Female >> 23 years
+        CE6126:      Female >> 24 years
+        CE6127:      Female >> 25 years
+        CE6128:      Female >> 26 years
+        CE6129:      Female >> 27 years
+        CE6130:      Female >> 28 years
+        CE6131:      Female >> 29 years
+        CE6132:      Female >> 30 years
+        CE6133:      Female >> 31 years
+        CE6134:      Female >> 32 years
+        CE6135:      Female >> 33 years
+        CE6136:      Female >> 34 years
+        CE6137:      Female >> 35 years
+        CE6138:      Female >> 36 years
+        CE6139:      Female >> 37 years
+        CE6140:      Female >> 38 years
+        CE6141:      Female >> 39 years
+        CE6142:      Female >> 40 years
+        CE6143:      Female >> 41 years
+        CE6144:      Female >> 42 years
+        CE6145:      Female >> 43 years
+        CE6146:      Female >> 44 years
+        CE6147:      Female >> 45 years
+        CE6148:      Female >> 46 years
+        CE6149:      Female >> 47 years
+        CE6150:      Female >> 48 years
+        CE6151:      Female >> 49 years
+        CE6152:      Female >> 50 years
+        CE6153:      Female >> 51 years
+        CE6154:      Female >> 52 years
+        CE6155:      Female >> 53 years
+        CE6156:      Female >> 54 years
+        CE6157:      Female >> 55 years
+        CE6158:      Female >> 56 years
+        CE6159:      Female >> 57 years
+        CE6160:      Female >> 58 years
+        CE6161:      Female >> 59 years
+        CE6162:      Female >> 60 years
+        CE6163:      Female >> 61 years
+        CE6164:      Female >> 62 years
+        CE6165:      Female >> 63 years
+        CE6166:      Female >> 64 years
+        CE6167:      Female >> 65 years
+        CE6168:      Female >> 66 years
+        CE6169:      Female >> 67 years
+        CE6170:      Female >> 68 years
+        CE6171:      Female >> 69 years
+        CE6172:      Female >> 70 years
+        CE6173:      Female >> 71 years
+        CE6174:      Female >> 72 years
+        CE6175:      Female >> 73 years
+        CE6176:      Female >> 74 years
+        CE6177:      Female >> 75 years
+        CE6178:      Female >> 76 years
+        CE6179:      Female >> 77 years
+        CE6180:      Female >> 78 years
+        CE6181:      Female >> 79 years
+        CE6182:      Female >> 80 years
+        CE6183:      Female >> 81 years
+        CE6184:      Female >> 82 years
+        CE6185:      Female >> 83 years
+        CE6186:      Female >> 84 years
+        CE6187:      Female >> 85 years
+        CE6188:      Female >> 86 years
+        CE6189:      Female >> 87 years
+        CE6190:      Female >> 88 years
+        CE6191:      Female >> 89 years
+        CE6192:      Female >> 90 years
+        CE6193:      Female >> 91 years
+        CE6194:      Female >> 92 years
+        CE6195:      Female >> 93 years
+        CE6196:      Female >> 94 years
+        CE6197:      Female >> 95 years
+        CE6198:      Female >> 96 years
+        CE6199:      Female >> 97 years
+        CE6200:      Female >> 98 years
+        CE6201:      Female >> 99 years
+        CE6202:      Female >> 100 years and over
+ 
+    Table 2:     Value
+    Universe:    Owner-Occupied Units
+    Source code: NT46A
+    NHGIS code:  CG7
+        CG7001:      Less than $5000
+        CG7002:      $5000-$7499
+        CG7003:      $7500-$9999
+        CG7004:      $10000-$12499
+        CG7005:      $12500-$14999
+        CG7006:      $15000-$17499
+        CG7007:      $17500-$19999
+        CG7008:      $20000-$24999
+        CG7009:      $25000-$34999
+        CG7010:      $35000-$49999
+        CG7011:      $50000 or more
+ 
+    Table 3:     Monthly Contract Rent
+    Universe:    Renter-Occupied Units for Which Rent is Tabulated
+    Source code: NT47A
+    NHGIS code:  CHA
+        CHA001:      Paying cash rent: Less than $30
+        CHA002:      Paying cash rent: $30-$39
+        CHA003:      Paying cash rent: $40-$49
+        CHA004:      Paying cash rent: $50-$59
+        CHA005:      Paying cash rent: $60-$69
+        CHA006:      Paying cash rent: $70-$79
+        CHA007:      Paying cash rent: $80-$89
+        CHA008:      Paying cash rent: $90-$99
+        CHA009:      Paying cash rent: $100-$119
+        CHA010:      Paying cash rent: $120-$149
+        CHA011:      Paying cash rent: $150-$199
+        CHA012:      Paying cash rent: $200-$249
+        CHA013:      Paying cash rent: $250-$299
+        CHA014:      Paying cash rent: $300 or more
+        CHA015:      No payment of cash rent
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Jonathan Schroeder, David Van Riper, Steven Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 20.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2025. 
+        http://doi.org/10.18128/D050.V20.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

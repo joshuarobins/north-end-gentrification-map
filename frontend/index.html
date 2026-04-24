@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>North End Boston — Gentrification Index (1950–2000)</title>
+  <meta name="description" content="Interactive gentrification index heatmap for Boston's North End, 1950–2000." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-title-group">
+        <span class="header-eyebrow">Boston Historical Atlas</span>
+        <h1 class="header-title">North End Gentrification Heatmap</h1>
+        <p class="header-subtitle">Custom gentrification index · 1950–2000</p>
+      </div>
+      <div class="header-badge">
+        <span class="badge-dot"></span>
+        <span id="header-year-label">1950</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+
+    <aside class="sidebar">
+
+      <!-- Year slider -->
+      <div class="card slider-card">
+        <div class="card-label">Census Year</div>
+        <div class="year-display"><span id="year-display">1950</span></div>
+        <div class="slider-track-wrap">
+          <input type="range" id="year-slider" min="0" max="5" step="1" value="0" class="year-slider" />
+          <div class="slider-tick-row">
+            <span>1950</span><span>1960</span><span>1970</span>
+            <span>1980</span><span>1990</span><span>2000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gentrification index weights -->
+      <div class="card weights-card">
+        <div class="card-label">Index Weights</div>
+        <div class="weight-row">
+          <div class="weight-header">
+            <span class="weight-name">Occupation</span>
+            <span class="weight-val" id="w-occ-val">5</span>
+          </div>
+          <input type="range" id="w-occ"  class="weight-slider" min="0" max="10" step="1" value="5" />
+        </div>
+        <div class="weight-row">
+          <div class="weight-header">
+            <span class="weight-name">Income</span>
+            <span class="weight-val" id="w-inc-val">5</span>
+          </div>
+          <input type="range" id="w-inc"  class="weight-slider" min="0" max="10" step="1" value="5" />
+        </div>
+        <div class="weight-row">
+          <div class="weight-header">
+            <span class="weight-name">Rent</span>
+            <span class="weight-val" id="w-rent-val">5</span>
+          </div>
+          <input type="range" id="w-rent" class="weight-slider" min="0" max="10" step="1" value="5" />
+        </div>
+        <div class="weight-formula">
+          index = <span id="formula-txt">⅓ occupation + ⅓ income + ⅓ rent</span>
+        </div>
+      </div>
+
+      <!-- Legend -->
+      <div class="card legend-card">
+        <div class="card-label">Gentrification Index</div>
+        <div class="legend-bar-wrap">
+          <div class="legend-bar gent-bar"></div>
+          <div class="legend-labels">
+            <span id="legend-min">Low</span>
+            <span id="legend-max">High</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats — injected by JS -->
+      <div class="card stats-card">
+        <div class="card-label">Neighborhood Total</div>
+        <div id="stats-rows"></div>
+      </div>
+
+      <div class="data-note">
+        <span class="data-note-icon">ℹ</span>
+        <span>Hover a tract for details. Normalized values are global (1950–2000 min/max). 1950–1960 use F-series tracts; 1970–2000 use numeric tracts.</span>
+      </div>
+
+    </aside>
+
+    <section class="map-section">
+      <div id="map"></div>
+      <div id="tooltip" class="tooltip hidden">
+        <div class="tooltip-header">
+          <span class="tooltip-tract-id" id="tt-tract-id">Tract —</span>
+          <span class="tooltip-year" id="tt-year">—</span>
+        </div>
+        <div class="tooltip-divider"></div>
+        <div class="tooltip-grid" id="tt-grid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

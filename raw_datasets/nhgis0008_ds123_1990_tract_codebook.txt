@@ -1,0 +1,389 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0008_ds123_1990_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1990
+Geographic level: Census Tract (by State--County)
+Extent:           Massachusetts
+Dataset:          1990 Census: STF 3 - Sample-Based Data
+   NHGIS code:    1990_STF3
+   NHGIS ID:      ds123
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+ 
+Tables:
+ 
+1. Persons
+   Universe:    Persons
+   Source code: NP1
+   NHGIS code:  E0H
+ 
+2. Ancestry
+   Universe:    Persons
+   Source code: NP33
+   NHGIS code:  E3C
+ 
+3. Ancestry
+   Universe:    Persons
+   Source code: NP35
+   NHGIS code:  E3E
+ 
+4. Place of Birth
+   Universe:    Persons
+   Source code: NP42
+   NHGIS code:  E3N
+ 
+5. Industry
+   Universe:    Employed persons 16 years and over
+   Source code: NP77
+   NHGIS code:  E4P
+ 
+6. Occupation
+   Universe:    Employed persons 16 years and over
+   Source code: NP78
+   NHGIS code:  E4Q
+ 
+7. Household Income in 1989
+   Universe:    Households
+   Source code: NP80
+   NHGIS code:  E4T
+ 
+8. Median Household Income in 1989
+   Universe:    Households
+   Source code: NP80A
+   NHGIS code:  E4U
+ 
+9. Per Capita Income in 1989
+   Universe:    Persons
+   Source code: NP114A
+   NHGIS code:  E01
+ 
+10. Gross Rent
+    Universe:    Specified renter-occupied housing units
+    Source code: NH43
+    NHGIS code:  EYT
+ 
+11. Median Gross Rent
+    Universe:    Specified renter-occupied housing units paying cash rent
+    Source code: NH43A
+    NHGIS code:  EYU
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State/US Abbreviation
+        ANRCA:       Alaska Native Regional Corporation Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Reservation [excluding trust lands] Code
+        TRUSTA:      American Indian Reservation [trust lands only] Code
+        AIANCC:      American Indian/Alaska Native Area Class Code
+        RES_TRSTA:   Reservation/Trust Lands Code
+        BLCK_GRPA:   Block Group Code
+        TRACTA:      Census Tract Code
+        CD101A:      Congressional District (101st) Code
+        C_CITYA:     Consolidated City Code
+        CMSA:        Consolidated Metropolitan Statistical Area
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        CTY_SUBA:    County Subdivision Code
+        COUSUBCC:    County Subdivision Class Code
+        DIVISIONA:   Division Code
+        MSA_CMSAA:   Metropolitan Statistical Area/Consolidated Metropolitan Statistical Area Code
+        PLACEA:      Place Code
+        PLACECC:     Place Class Code
+        PLACEDC:     Place Description Code
+        PMSAA:       Primary Metropolitan Statistical Area Code
+        REGIONA:     Region Code
+        STATE:       State Name
+        STATEA:      State Code
+        URBRURALA:   Urban/Rural Code
+        URB_AREAA:   Urban Area Code
+        ZIPA:        5-Digit ZIP Code Code
+        CD103A:      Congressional District (103rd) Code
+        AREALAND:    Area (land)
+        AREAWAT:     Area (Water)
+        ANPSADPI:    Area Name/PSAD Term/Part Indicator
+        FUNCSTAT:    Functional Status Code
+        INTPTLAT:    Internal Point (latitude)
+        INTPTLNG:    Internal Point (longitude)
+        PSADC:       Political/Statistical Area Description Code
+ 
+Breakdown:
+    Geographic Subarea: Total area (00)
+ 
+    Table 1:     Persons
+    Universe:    Persons
+    Source code: NP1
+    NHGIS code:  E0H
+        E0H001:      Total
+ 
+    Table 2:     Ancestry
+    Universe:    Persons
+    Source code: NP33
+    NHGIS code:  E3C
+        E3C001:      First ancestry reported (000-999): Arab (400-415, 417-418, 421-430, 435-481, 490-499)
+        E3C002:      First ancestry reported (000-999): Austrian (003-004)
+        E3C003:      First ancestry reported (000-999): Belgian (008-010)
+        E3C004:      First ancestry reported (000-999): Canadian (931-934)
+        E3C005:      First ancestry reported (000-999): Czech (111-114)
+        E3C006:      First ancestry reported (000-999): Danish (020, 023)
+        E3C007:      First ancestry reported (000-999): Dutch (021, 029)
+        E3C008:      First ancestry reported (000-999): English (015, 022)
+        E3C009:      First ancestry reported (000-999): Finnish (024-025)
+        E3C010:      First ancestry reported (000-999): French (except Basque) (000-001, 016, 026-028, 083)
+        E3C011:      First ancestry reported (000-999): French Canadian (935-938)
+        E3C012:      First ancestry reported (000-999): German (032-045)
+        E3C013:      First ancestry reported (000-999): Greek (046-048)
+        E3C014:      First ancestry reported (000-999): Hungarian (125-126)
+        E3C015:      First ancestry reported (000-999): Irish (050, 081, 099)
+        E3C016:      First ancestry reported (000-999): Italian (030-031, 051-074)
+        E3C017:      First ancestry reported (000-999): Lithuanian (129)
+        E3C018:      First ancestry reported (000-999): Norwegian (082)
+        E3C019:      First ancestry reported (000-999): Polish (142-143)
+        E3C020:      First ancestry reported (000-999): Portuguese (084-086)
+        E3C021:      First ancestry reported (000-999): Romanian (144-147)
+        E3C022:      First ancestry reported (000-999): Russian (148-151)
+        E3C023:      First ancestry reported (000-999): Scotch-Irish (087)
+        E3C024:      First ancestry reported (000-999): Scottish (088)
+        E3C025:      First ancestry reported (000-999): Slovak (153)
+        E3C026:      First ancestry reported (000-999): Subsaharan African (500-599)
+        E3C027:      First ancestry reported (000-999): Swedish (089-090)
+        E3C028:      First ancestry reported (000-999): Swiss (091-096)
+        E3C029:      First ancestry reported (000-999): Ukrainian (171-174)
+        E3C030:      First ancestry reported (000-999): United States or American (939-994)
+        E3C031:      First ancestry reported (000-999): Welsh (097)
+        E3C032:      First ancestry reported (000-999): West Indian (excluding Hispanic origin groups) (300-359)
+        E3C033:      First ancestry reported (000-999): Yugoslavian (152, 154, 176-177)
+        E3C034:      First ancestry reported (000-999): Race or Hispanic origin groups (200-299, 900-928)
+        E3C035:      First ancestry reported (000-999): Other groups (002, 005-007, 011-014, 017-019, 049, 075-080, 098, 100-110, 115-124, 127-128, 130-141, 155-170, 175, 178-199, 360-399, 416, 419-420, 431-434, 482-489, 600-862, 929-930, 998)
+        E3C036:      First ancestry reported (000-999): Unclassified or not reported (863-899, 995-997, 999)
+ 
+    Table 3:     Ancestry
+    Universe:    Persons
+    Source code: NP35
+    NHGIS code:  E3E
+        E3E001:      Reported single ancestry (000-862, 900-994, 998): Arab (400-415, 417-418, 421-430, 435-481, 490-499)
+        E3E002:      Reported single ancestry (000-862, 900-994, 998): Austrian (003-004)
+        E3E003:      Reported single ancestry (000-862, 900-994, 998): Belgian (008-010)
+        E3E004:      Reported single ancestry (000-862, 900-994, 998): Canadian (931-934)
+        E3E005:      Reported single ancestry (000-862, 900-994, 998): Czech (111-114)
+        E3E006:      Reported single ancestry (000-862, 900-994, 998): Danish (020, 023)
+        E3E007:      Reported single ancestry (000-862, 900-994, 998): Dutch (021, 029)
+        E3E008:      Reported single ancestry (000-862, 900-994, 998): English (015, 022)
+        E3E009:      Reported single ancestry (000-862, 900-994, 998): Finnish (024-025)
+        E3E010:      Reported single ancestry (000-862, 900-994, 998): French (except Basque) (000-001, 016, 026-028, 083)
+        E3E011:      Reported single ancestry (000-862, 900-994, 998): French Canadian (935-938)
+        E3E012:      Reported single ancestry (000-862, 900-994, 998): German (032-045)
+        E3E013:      Reported single ancestry (000-862, 900-994, 998): Greek (046-048)
+        E3E014:      Reported single ancestry (000-862, 900-994, 998): Hungarian (125-126)
+        E3E015:      Reported single ancestry (000-862, 900-994, 998): Irish (050, 081, 099)
+        E3E016:      Reported single ancestry (000-862, 900-994, 998): Italian (030-031, 051-074)
+        E3E017:      Reported single ancestry (000-862, 900-994, 998): Lithuanian (129)
+        E3E018:      Reported single ancestry (000-862, 900-994, 998): Norwegian (082)
+        E3E019:      Reported single ancestry (000-862, 900-994, 998): Polish (142-143)
+        E3E020:      Reported single ancestry (000-862, 900-994, 998): Portuguese (084-086)
+        E3E021:      Reported single ancestry (000-862, 900-994, 998): Romanian (144-147)
+        E3E022:      Reported single ancestry (000-862, 900-994, 998): Russian (148-151)
+        E3E023:      Reported single ancestry (000-862, 900-994, 998): Scotch-Irish (087)
+        E3E024:      Reported single ancestry (000-862, 900-994, 998): Scottish (088)
+        E3E025:      Reported single ancestry (000-862, 900-994, 998): Slovak (153)
+        E3E026:      Reported single ancestry (000-862, 900-994, 998): Subsaharan African (500-599)
+        E3E027:      Reported single ancestry (000-862, 900-994, 998): Swedish (089-090)
+        E3E028:      Reported single ancestry (000-862, 900-994, 998): Swiss (091-096)
+        E3E029:      Reported single ancestry (000-862, 900-994, 998): Ukrainian (171-174)
+        E3E030:      Reported single ancestry (000-862, 900-994, 998): United States or American (939-994)
+        E3E031:      Reported single ancestry (000-862, 900-994, 998): Welsh (097)
+        E3E032:      Reported single ancestry (000-862, 900-994, 998): West Indian (excluding Hispanic origin groups) (300-359)
+        E3E033:      Reported single ancestry (000-862, 900-994, 998): Yugoslavian (152, 154, 176-177)
+        E3E034:      Reported single ancestry (000-862, 900-994, 998): Race or Hispanic origin groups (200-299, 900-928)
+        E3E035:      Reported single ancestry (000-862, 900-994, 998): Other groups (002, 005-007, 011-014, 017-019, 049, 075-080, 098, 100-110, 115-124, 127-128, 130-141, 155-170, 175, 178-199, 360-399, 416, 419-420, 431-434, 482-489, 600-862, 929-930, 998)
+        E3E036:      Reported single ancestry (000-862, 900-994, 998): Reported multiple ancestry (000-998)
+        E3E037:      Reported single ancestry (000-862, 900-994, 998): Unclassified or not reported (863-899, 995-997, 999)
+ 
+    Table 4:     Place of Birth
+    Universe:    Persons
+    Source code: NP42
+    NHGIS code:  E3N
+        E3N001:      Native (001-099): Born in State of residence
+        E3N002:      Native (001-099): Born in other State in the United States (001-059): Northeast (009, 023, 025, 033-034, 036, 042-044, 050)
+        E3N003:      Native (001-099): Born in other State in the United States (001-059): Midwest (017-020, 026-027, 029, 031, 038-039, 046, 055)
+        E3N004:      Native (001-099): Born in other State in the United States (001-059): South (001, 005, 010-014, 021-022, 024, 028, 037, 040, 045, 047-048, 051-052, 054)
+        E3N005:      Native (001-099): Born in other State in the United States (001-059): West (002-004, 006-008, 015-016, 030, 032, 035, 041, 049, 053, 056-059)
+        E3N006:      Native (001-099): Born outside the United States (060-099): Puerto Rico (072-075)
+        E3N007:      Native (001-099): Born outside the United States (060-099): U.S. outlying area (060-071, 076-099)
+        E3N008:      Native (001-099): Born outside the United States (060-099): Born abroad of American parent(s)
+        E3N009:      Foreign born (100-999)
+ 
+    Table 5:     Industry
+    Universe:    Employed persons 16 years and over
+    Source code: NP77
+    NHGIS code:  E4P
+        E4P001:      Agriculture, forestry, and fisheries (000-039)
+        E4P002:      Mining (040-059)
+        E4P003:      Construction (060-099)
+        E4P004:      Manufacturing, nondurable goods (100-229)
+        E4P005:      Manufacturing, durable goods (230-399)
+        E4P006:      Transportation (400-439)
+        E4P007:      Communications and other public utilities (440-499)
+        E4P008:      Wholesale trade (500-579)
+        E4P009:      Retail trade (580-699)
+        E4P010:      Finance, insurance, and real estate (700-720)
+        E4P011:      Business and repair services (721-760)
+        E4P012:      Personal services (761-799)
+        E4P013:      Entertainment and recreation services (800-811)
+        E4P014:      Professional and related services (812-899): Health services (812-840)
+        E4P015:      Professional and related services (812-899): Educational services (842-860)
+        E4P016:      Professional and related services (812-899): Other professional and related services (841, 861-899)
+        E4P017:      Public administration (900-939)
+ 
+    Table 6:     Occupation
+    Universe:    Employed persons 16 years and over
+    Source code: NP78
+    NHGIS code:  E4Q
+        E4Q001:      Managerial and professional specialty occupations (000-202): Executive, administrative, and managerial occupations (000-042)
+        E4Q002:      Managerial and professional specialty occupations (000-202): Professional specialty occupations (043-202)
+        E4Q003:      Technical, sales, and administrative support occupations (203-402): Technicians and related support occupations (203-242)
+        E4Q004:      Technical, sales, and administrative support occupations (203-402): Sales occupations (243-302)
+        E4Q005:      Technical, sales, and administrative support occupations (203-402): Administrative support occupations, including clerical (303-402)
+        E4Q006:      Service occupations (403-472): Private household occupations (403-412)
+        E4Q007:      Service occupations (403-472): Protective service occupations (413-432)
+        E4Q008:      Service occupations (403-472): Service occupations, except protective and household (433-472)
+        E4Q009:      Farming, forestry, and fishing occupations (473-502)
+        E4Q010:      Precision production, craft, and repair occupations (503-702)
+        E4Q011:      Operators, fabricators, and laborers (703-902): Machine operators, assemblers, and inspectors (703-802)
+        E4Q012:      Operators, fabricators, and laborers (703-902): Transportation and material moving occupations (803-863)
+        E4Q013:      Operators, fabricators, and laborers (703-902): Handlers, equipment cleaners, helpers, and laborers (864-902)
+ 
+    Table 7:     Household Income in 1989
+    Universe:    Households
+    Source code: NP80
+    NHGIS code:  E4T
+        E4T001:      Less than $5,000
+        E4T002:      $5,000 to $9,999
+        E4T003:      $10,000 to $12,499
+        E4T004:      $12,500 to $14,999
+        E4T005:      $15,000 to $17,499
+        E4T006:      $17,500 to $19,999
+        E4T007:      $20,000 to $22,499
+        E4T008:      $22,500 to $24,999
+        E4T009:      $25,000 to $27,499
+        E4T010:      $27,500 to $29,999
+        E4T011:      $30,000 to $32,499
+        E4T012:      $32,500 to $34,999
+        E4T013:      $35,000 to $37,499
+        E4T014:      $37,500 to $39,999
+        E4T015:      $40,000 to $42,499
+        E4T016:      $42,500 to $44,999
+        E4T017:      $45,000 to $47,499
+        E4T018:      $47,500 to $49,999
+        E4T019:      $50,000 to $54,999
+        E4T020:      $55,000 to $59,999
+        E4T021:      $60,000 to $74,999
+        E4T022:      $75,000 to $99,999
+        E4T023:      $100,000 to $124,999
+        E4T024:      $125,000 to $149,999
+        E4T025:      $150,000 or more
+ 
+    Table 8:     Median Household Income in 1989
+    Universe:    Households
+    Source code: NP80A
+    NHGIS code:  E4U
+        E4U001:      Median household income in 1989
+ 
+    Table 9:     Per Capita Income in 1989
+    Universe:    Persons
+    Source code: NP114A
+    NHGIS code:  E01
+        E01001:      Per capita income in 1989
+ 
+    Table 10:    Gross Rent
+    Universe:    Specified renter-occupied housing units
+    Source code: NH43
+    NHGIS code:  EYT
+        EYT001:      With cash rent: Less than $100
+        EYT002:      With cash rent: $100 to $149
+        EYT003:      With cash rent: $150 to $199
+        EYT004:      With cash rent: $200 to $249
+        EYT005:      With cash rent: $250 to $299
+        EYT006:      With cash rent: $300 to $349
+        EYT007:      With cash rent: $350 to $399
+        EYT008:      With cash rent: $400 to $449
+        EYT009:      With cash rent: $450 to $499
+        EYT010:      With cash rent: $500 to $549
+        EYT011:      With cash rent: $550 to $599
+        EYT012:      With cash rent: $600 to $649
+        EYT013:      With cash rent: $650 to $699
+        EYT014:      With cash rent: $700 to $749
+        EYT015:      With cash rent: $750 to $999
+        EYT016:      With cash rent: $1,000 or more
+        EYT017:      With cash rent: No cash rent
+ 
+    Table 11:    Median Gross Rent
+    Universe:    Specified renter-occupied housing units paying cash rent
+    Source code: NH43A
+    NHGIS code:  EYU
+        EYU001:      Median gross rent
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Jonathan Schroeder, David Van Riper, Steven Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 20.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2025. 
+        http://doi.org/10.18128/D050.V20.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
