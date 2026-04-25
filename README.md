@@ -28,17 +28,20 @@ index = (w_occ × Norm_Pct_White_Collar + w_inc × Norm_Median_Family_Income + w
 
 Weights are adjustable via the sidebar sliders (0–10).
 
-## Data Sources
+## Works Cited
 
-- **[NHGIS (IPUMS)](https://www.nhgis.org/)** — decennial census tract data for 1950–2000
-- **Census tract shapefiles** — historical Boston tract boundaries from NHGIS
+Hawkins, Jason, et al. "Measuring the Process of Urban Gentrification: A Composite Measure of the Gentrification Process in Toronto." *Cities*, vol. 126, 2022, article 103708. — Argues that gentrification must be measured as a composite of demographic, real estate, and commercial indicators, and highlights the aggregation bias inherent in fixed census tract boundaries.
+
+Pasto, James S., and Donna R. Gabaccia. "Immigrants and Ethnics: Post–World War II Italian Immigration and Boston's North End (1945–2016)." *New Italian Migrations to the United States: Politics and History since 1945*, vol. 1, University of Illinois Press, 2017, pp. 105–131. — Traces post-WWII Italian immigration to the North End through demographic changes, institutional developments, and housing transactions, providing the historical baseline for interpreting quantitative findings.
+
+Schroeder, Jonathan, et al. *IPUMS National Historical Geographic Information System: Version 20.0*. IPUMS, 2025. — Provides the decennial census tract data — population, income, rent, and occupational variables — that forms the empirical foundation of this project.
 
 ## Limitations
 
 - **Italian-origin proxy (1950–1970):** The census did not track Italian ancestry directly in this period. Italian demographic figures are estimated using foreign-born stock data (country of birth of self or parents), which overestimates the true Italian-American population and cannot distinguish later generations.
 - **Tract boundary changes:** The North End used F-series tracts in 1950–1960 and shifted to numeric tracts from 1970 onward. These are separate geographies and direct tract-to-tract comparison across the boundary change is not meaningful.
 - **Modeled income (1950):** Median family income for 1950 is modeled from occupational class distributions rather than directly observed, as tract-level income data were not published at that geography.
-- **Three-metric index:** The gentrification index captures only occupation, income, and rent. Other meaningful signals — educational attainment, housing age, in-migration rates — are not included due to data availability constraints across all six decades.
+- **Three-metric index:** The gentrification index captures only occupation, income, and rent. Other meaningful signals — educational attainment, housing age, commercial transformation, in-migration rates — are not included due to data availability constraints across all six decades.
 
 ## License
 
