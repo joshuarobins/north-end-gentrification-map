@@ -11,8 +11,8 @@ const YEARS = [1950, 1960, 1970, 1980, 1990, 2000];
 
 const _v = Date.now();   // cache-busting timestamp
 const GEOJSON_PATHS = {
-  '1950_1960': `/final_datasets/north_end_census_1950_1960_geo.geojson?v=${_v}`,
-  '1970_2000': `/final_datasets/north_end_census_1970_2000_geo.geojson?v=${_v}`,
+  '1950_1960': `./final_datasets/north_end_census_1950_1960_geo.geojson?v=${_v}`,
+  '1970_2000': `./final_datasets/north_end_census_1970_2000_geo.geojson?v=${_v}`,
 };
 
 const MAP_CENTER = [42.3659, -71.0543];
